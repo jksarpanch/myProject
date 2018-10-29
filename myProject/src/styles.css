@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+
+/* custom Styles start from here */
+
+@media(min-width : 576px){body{background: cyan;}}
+@media(min-width : 768px){body{background: lightblue;}}
+@media(min-width : 992px){body{background: lightgreen;}}
+@media(min-width : 1200px){body{background: white}}
+@media(max-width : 575px){body{background: gray;}}

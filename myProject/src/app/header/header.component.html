@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg fixed-top">
+  <a class="navbar-brand" href="#">SB Admin Angular5 BS4 </a>
+
+  <div class="collapse navbar-collapse justify-content-end">
+
+    <a href="javascript:void(0)" class="navToggleButton text-white" *ngIf="navOpened==false"
+       (click)="navOpened=true; openNav()">&#9776;</a>
+
+    <a href="javascript:void(0)" class="navToggleButton text-white" *ngIf="navOpened==true"
+       (click)="navOpened=false; closeNav()" >&times;</a>
+
+    <!--<button class="navbar-toggler d-block" type="button" (click)="closeNav()" [ngClass]="{collapsed: collapsed}">-->
+      <!--<span class="text-white ">&times;</span>-->
+    <!--</button>-->
+  </div>
+</nav>
