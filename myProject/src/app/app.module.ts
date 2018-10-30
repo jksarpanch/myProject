@@ -8,6 +8,7 @@ import {LandingComponent} from './landingPage/landing.component';
 import {LiveComponent} from './live/live.component';
 import {HeaderComponent} from './header/header.component';
 import {SidebarComponent} from './sidebar/sidebar.component';
+import {DeferLoadModule} from '@trademe/ng-defer-load';
 
 @NgModule({
   declarations: [AppComponent,
@@ -22,7 +23,8 @@ import {SidebarComponent} from './sidebar/sidebar.component';
       {path: 'landingPage', component: LandingComponent},
       {path: 'livePage', component: LiveComponent}
     ]),
-    NavModule
+    NavModule,
+    DeferLoadModule
   ],
   providers: [],
   bootstrap: [AppComponent]
