@@ -7,8 +7,7 @@ import {Component, OnInit} from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  currentUrl = '';
-
+  public currentUrl = '';
   constructor(private router: Router) {
     router.events.subscribe((event: Event) => {
       if (event instanceof NavigationStart) {
@@ -30,9 +29,6 @@ export class AppComponent implements OnInit {
     });
   }
 
-  closeMenu(): void {
-    document.getElementById('mySidenav').style.width = '0';
-  }
   ngOnInit() {
     console.log('test2');
     if (this.currentUrl === '/') {

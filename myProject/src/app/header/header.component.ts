@@ -7,21 +7,17 @@ import { Component, Output, EventEmitter } from '@angular/core';
 })
 export class HeaderComponent {
   navOpened = false;
-
-  @Output() collapsedEvent = new EventEmitter<boolean>();
   constructor() {
     this.toggleTitle();
   }
 
   toggleTitle() {
-    $('#expandButtons').click(function (e) {
-      e.stopPropagation(); // this stops the event from bubbling up to the body
-    })
-    $(document.body).click( () =>{
-      console.log(document.getElementById('mySidenav').style.width);
-      const currentWidth = document.getElementById('mySidenav').style.width;
-      if (this.navOpened === true) {
+    $(document.body).click( (e) => {
+      if ((e && e.target.id !== 'expandButton')
+        && (e && e.target.id !== 'collapseButton')
+        && (e && e.target.className !== 'router-link-active')) {
         document.getElementById('mySidenav').style.width = '0';
+        this.navOpened = false;
       }
     });
   }

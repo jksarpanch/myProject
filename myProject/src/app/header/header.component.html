@@ -3,10 +3,10 @@
 
   <div class="collapse navbar-collapse justify-content-end">
 
-    <a id="expandButtons" href="javascript:void(0)" class="navToggleButton text-white" *ngIf="navOpened==false"
+    <a id="expandButton" href="javascript:void(0)" class="navToggleButton text-white" *ngIf="navOpened==false"
        (click)="navOpened=true; openNav()">&#9776;</a>
 
-    <a id="collapseButtons" href="javascript:void(0)" class="navToggleButton text-white" *ngIf="navOpened==true"
+    <a id="collapseButton" href="javascript:void(0)" class="navToggleButton text-white" *ngIf="navOpened==true"
        (click)="navOpened=false; closeNav()" >&times;</a>
 
     <!--<button class="navbar-toggler d-block" type="button" (click)="closeNav()" [ngClass]="{collapsed: collapsed}">-->
