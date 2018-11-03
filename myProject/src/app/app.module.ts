@@ -9,19 +9,24 @@ import {LiveComponent} from './live/live.component';
 import {HeaderComponent} from './header/header.component';
 import {SidebarComponent} from './sidebar/sidebar.component';
 import {DeferLoadModule} from '@trademe/ng-defer-load';
+import {HomepageComponent} from './homePage/homePage..component';
+import {FooterComponent} from './footer/footer.component';
 
 @NgModule({
   declarations: [AppComponent,
     LandingComponent,
     LiveComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    HomepageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
-      {path: 'landingPage', component: LandingComponent},
-      {path: 'livePage', component: LiveComponent}
+      {path: '', component: LandingComponent},
+      {path: 'livePage', component: LiveComponent},
+      {path: 'homePage', component: HomepageComponent}
     ]),
     NavModule,
     DeferLoadModule

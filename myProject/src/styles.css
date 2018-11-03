@@ -4,8 +4,15 @@
 
 /* custom Styles start from here */
 
-@media(min-width : 576px){body{background: cyan;}}
-@media(min-width : 768px){body{background: lightblue;}}
-@media(min-width : 992px){body{background: lightgreen;}}
-@media(min-width : 1200px){body{background: white}}
-@media(max-width : 575px){body{background: gray;}}
+/*@media(min-width : 576px){body{background: cyan;}}*/
+/*@media(min-width : 768px){body{background: lightblue;}}*/
+/*@media(min-width : 992px){body{background: lightgreen;}}*/
+/*@media(min-width : 1200px){body{background: white}}*/
+/*@media(max-width : 575px){body{background: gray;}}*/
+
+.btn-danger{
+  background-color: #d81225!important;
+}
+html {
+  height: 100%;
+}

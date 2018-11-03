@@ -18,28 +18,30 @@
   </li>
 </ul> -->
 
-<app-header></app-header>
+<app-header [hidden]="currentUrl =='/'"></app-header>
 <!--<app-sidebar></app-sidebar>-->
 
 <header [hidden]="currentUrl =='/'">
   <div id="mySidenav" class="sidenav">
     <!--<a href="javascript:void(0)" class="closebtn" (click)="navOpened=false; closeNav()"-->
-       <!--*ngIf="navOpened==true">&times;</a>-->
-    <a [routerLink]="['/']" [routerLinkActive]="['router-link-active']">About</a>
-    <a [routerLink]="['/newPage']" [routerLinkActive]="['router-link-active']">Services</a>
-    <a [routerLink]="['/pageB']" [routerLinkActive]="['router-link-active']">Clients</a>
-    <a href="#" [routerLinkActive]="['router-link-active']">Contact</a>
+    <!--*ngIf="navOpened==true">&times;</a>-->
+    <a [routerLink]="['/livePage']" [routerLinkActive]="['router-link-active']">Live</a>
+    <a [routerLink]="['/newPage']" [routerLinkActive]="['router-link-active']">Work</a>
+    <a [routerLink]="['/pageB']" [routerLinkActive]="['router-link-active']">Play</a>
+    <a [routerLink]="['/homePage']" [routerLinkActive]="['router-link-active']">Services</a>
+    <a [routerLink]="['/homePage']" [routerLinkActive]="['router-link-active']">About</a>
+    <a [routerLink]="['/homePage']" [routerLinkActive]="['router-link-active']">Blog</a>
+    <a [routerLink]="['/homePage']" [routerLinkActive]="['router-link-active']">Contact</a>
+    <a [routerLink]="['/homePage']" [routerLinkActive]="['router-link-active']">Home</a>
   </div>
   <!--<span class="m-3" style="font-size:35px;cursor:pointer; float: right;" *ngIf="navOpened==false"-->
-        <!--(click)="navOpened=true;openNav()">&#9776;</span>-->
+  <!--(click)="navOpened=true;openNav()">&#9776;</span>-->
 </header>
-<div class="pt-5">
-<div><label><a [routerLink]="['/newPage']">testLink</a></label></div>
-<label><a [routerLink]="['/landingPage']">landingPage</a></label>
-<div>
-  <label><a [routerLink]="['/livePage']">Livepage</a></label>
+<!--<div class="pt-5">-->
+<!--<div><label><a [routerLink]="['/newPage']">testLink</a></label></div>-->
+
+<!--</div>-->
+<div [ngClass]="currentUrl =='/'?'':'margin-large'">
+    <router-outlet></router-outlet>
 </div>
-</div>
-<div>
-  <router-outlet></router-outlet>
-</div>
+<app-footer [hidden]="currentUrl =='/'"></app-footer>
