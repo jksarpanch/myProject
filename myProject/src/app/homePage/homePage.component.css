@@ -23,3 +23,10 @@
   }
 }
 
+.custom-border:after{
+  content: "";
+  display: block;
+  width: 30px;
+  padding-top: 10px;
+  border-bottom: 3px solid #d81225;
+}

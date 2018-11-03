@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 export class LiveComponent {
   imageCollection = [];
   constructor() {
-    for (let i = 0; i < 1; i++) {
-      const url = 'src/assets/live/imageNo' + (i + 1) + '.jpg';
+    for (let i = 0; i < 10; i++) {
+      const url = 'src/assets/live/image' + (i + 1) + '.png';
 
       this.imageCollection[i] = {
         url: url,

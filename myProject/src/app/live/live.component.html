@@ -1,68 +1,22 @@
 <div class="container">
-  <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true">
-    <ng-container *ngIf="image.show">
+
 
   <div class="row">
-    <div class="col-md-5 col-lg-5">
-          <h1>Live</h1>
-          <h4>Residential Architecture & Interior Design</h4>
+    <div class="col-md-5 col-lg-5 m-auto">
+      <h1>Live</h1>
+      <h4>Residential Architecture & Interior Design</h4>
     </div>
     <div class="col-md-7 col-lg-7">
-        <img class="w-100" [src]="image.url">
-      </div>
-  </div>
-
-  <div class="row">
-      <div class="col-md-6 col-lg-6">
-            <h1>Live</h1>
-            <h4>Residential Architecture & Interior Design</h4>
-      </div>
-      <div class="col-md-6 col-lg-6">
-          <h1>Live</h1>
-          <h4>Residential Architecture & Interior Design</h4>
-        </div>
+      <img class="w-100" src="src/assets/live/live-header.jpg">
     </div>
-    <div class="row">
-        <div class="col-md-6 col-lg-6">
-              <h1>Live</h1>
-              <h4>Residential Architecture & Interior Design</h4>
-        </div>
-        <div class="col-md-6 col-lg-6">
-            <h1>Live</h1>
-            <h4>Residential Architecture & Interior Design</h4>
-          </div>
-      </div>
-      <div class="row">
-          <div class="col-md-6 col-lg-6">
-                <h1>Live</h1>
-                <h4>Residential Architecture & Interior Design</h4>
-          </div>
-          <div class="col-md-6 col-lg-6">
-              <h1>Live</h1>
-              <h4>Residential Architecture & Interior Design</h4>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-6">
-                  <h1>Live</h1>
-                  <h4>Residential Architecture & Interior Design</h4>
-            </div>
-            <div class="col-md-6 col-lg-6">
-                <h1>Live</h1>
-                <h4>Residential Architecture & Interior Design</h4>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-md-6 col-lg-6">
-                    <h1>Live</h1>
-                    <h4>Residential Architecture & Interior Design</h4>
-              </div>
-              <div class="col-md-6 col-lg-6">
-                  <h1>Live</h1>
-                  <h4>Residential Architecture & Interior Design</h4>
-                </div>
-            </div>
-    </ng-container>
   </div>
-
+  <div class="row mt-5">
+    <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-5">
+      <ng-container *ngIf="image.show">
+        <div>
+          <img class="w-100" [src]="image.url">
+        </div>
+      </ng-container>
+    </div>
+  </div>
 </div>
