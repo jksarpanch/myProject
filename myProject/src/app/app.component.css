@@ -15,14 +15,14 @@
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: #c0bbb7;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover {
-  font-size: 28px;
-    color: #f1f1f1;
+  font-size: 25px;
+    color: #ffffff;
 }
 
 .sidenav .closebtn {

@@ -1,4 +1,5 @@
 import { Component, Output, EventEmitter } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'app-header',

@@ -8,9 +8,10 @@ import {LandingComponent} from './landingPage/landing.component';
 import {LiveComponent} from './live/live.component';
 import {HeaderComponent} from './header/header.component';
 import {SidebarComponent} from './sidebar/sidebar.component';
-import {DeferLoadModule} from '@trademe/ng-defer-load';
-import {HomepageComponent} from './homePage/homePage..component';
+import {HomepageComponent} from './homePage/homePage.component';
 import {FooterComponent} from './footer/footer.component';
+import { DeferLoadModule } from '@trademe/ng-defer-load';
+import {ServicesComponent} from './servicesPage/services.component';
 
 @NgModule({
   declarations: [AppComponent,
@@ -19,14 +20,16 @@ import {FooterComponent} from './footer/footer.component';
     HeaderComponent,
     SidebarComponent,
     HomepageComponent,
-    FooterComponent
+    FooterComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       {path: '', component: LandingComponent},
       {path: 'livePage', component: LiveComponent},
-      {path: 'homePage', component: HomepageComponent}
+      {path: 'homePage', component: HomepageComponent},
+      {path: 'services', component: ServicesComponent}
     ]),
     NavModule,
     DeferLoadModule

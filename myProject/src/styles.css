@@ -1,5 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 
 
 /* custom Styles start from here */
@@ -15,4 +16,17 @@
 }
 html {
   height: 100%;
+}
+
+.router-link-active {
+  color: #d81225 !important;
+  font-weight: bold;
+}
+
+.custom-border:after{
+  content: "";
+  display: block;
+  width: 1rem;
+  padding-top: 10px;
+  border-bottom: 2px solid #d81225;
 }
