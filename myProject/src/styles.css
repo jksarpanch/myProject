@@ -37,3 +37,11 @@ html {
 .container {
   max-width: 1440px!important;
 }
+
+
+a:hover
+{
+  color:white;
+  text-decoration:none;
+  cursor:pointer;
+}
