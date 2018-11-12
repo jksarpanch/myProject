@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
     router.events.subscribe((event: Event) => {
       if (event instanceof NavigationStart) {
         // Show loading indicator
-
+        window.scroll(0, 0);
       }
 
       if (event instanceof NavigationEnd) {

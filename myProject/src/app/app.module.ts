@@ -12,6 +12,7 @@ import {HomepageComponent} from './homePage/homePage.component';
 import {FooterComponent} from './footer/footer.component';
 import { DeferLoadModule } from '@trademe/ng-defer-load';
 import {ServicesComponent} from './servicesPage/services.component';
+import {ContactInfoComponent} from './common/contactInfo/contactinfo.component';
 
 @NgModule({
   declarations: [AppComponent,
@@ -21,7 +22,8 @@ import {ServicesComponent} from './servicesPage/services.component';
     SidebarComponent,
     HomepageComponent,
     FooterComponent,
-    ServicesComponent
+    ServicesComponent,
+    ContactInfoComponent
   ],
   imports: [
     BrowserModule,
