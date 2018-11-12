@@ -12,17 +12,18 @@
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 60px;
     text-decoration: none;
-    font-size: 25px;
-    color: #c0bbb7;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover {
   font-size: 25px;
-    color: #ffffff;
+    color: #c0bbb7;
 }
 
 .sidenav .closebtn {
@@ -34,7 +35,7 @@
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
+  .sidenav {padding-top: 60px;}
   .sidenav a {font-size: 18px;}
 }
 
