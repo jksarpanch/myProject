@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
 })
 export class AboutUsComponent {
   imageCollection = [];
+  singleImage: any = {};
   constructor() {
     for (let i = 0; i < 4; i++) {
       const url = 'src/assets/aboutUs/WorkshopNo5Branding-' + (i + 1) + '.png';
@@ -17,6 +18,10 @@ export class AboutUsComponent {
         show: false
       };
     }
+    this.singleImage = {
+      url : 'src/assets/aboutUs/WorkshopNo5Branding-31.png',
+      show: false
+    };
   }
 
   getContactInfo(i): any {

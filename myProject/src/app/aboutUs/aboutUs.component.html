@@ -22,7 +22,7 @@
   <section>
    <h5 class="font-weight-normal custom-border">MEET THE TEAM</h5>
 
-    <div class="row mt-5">
+    <div class="row mt-4">
       <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-5">
         <ng-container *ngIf="image.show">
           <div>
@@ -34,5 +34,21 @@
         </ng-container>
       </div>
     </div>
+
+    <div class="row mt-4" (deferLoad)="singleImage.show = true" >
+      <img class="w-100" [src]="singleImage.url">
+    </div>
+
+    <div class="row custom-large-margin mx-5 px-5">
+      <p *ngIf="singleImage.show" class="font-weight-normal m-auto display-4">Morbi tristique est ut dictum blandit.
+        <br/>
+        Mauris eget lorem risus. Aliquam sed
+        <br/>
+        lorem iaculis, Fermentum.
+      </p>
+
+    </div>
   </section>
+
 </div>
+<app-contactinfo-component></app-contactinfo-component>

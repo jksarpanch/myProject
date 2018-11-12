@@ -14,6 +14,9 @@ import { DeferLoadModule } from '@trademe/ng-defer-load';
 import {ServicesComponent} from './servicesPage/services.component';
 import {ContactInfoComponent} from './common/contactInfo/contactinfo.component';
 import {AboutUsComponent} from './aboutUs/aboutUs.component';
+import {BlogComponent} from './blog/blog.component';
+import {getBrowserLoggingCb} from '@angular-devkit/build-angular';
+import {ContactUsComponent} from './contactUs/contact.component';
 
 @NgModule({
   declarations: [AppComponent,
@@ -25,7 +28,9 @@ import {AboutUsComponent} from './aboutUs/aboutUs.component';
     FooterComponent,
     ServicesComponent,
     ContactInfoComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    BlogComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +39,9 @@ import {AboutUsComponent} from './aboutUs/aboutUs.component';
       {path: 'livePage', component: LiveComponent},
       {path: 'homePage', component: HomepageComponent},
       {path: 'services', component: ServicesComponent},
-      {path: 'aboutUs', component: AboutUsComponent}
+      {path: 'aboutUs', component: AboutUsComponent},
+      {path: 'blog', component: BlogComponent},
+      {path: 'contactUs', component: ContactUsComponent}
     ]),
     NavModule,
     DeferLoadModule
