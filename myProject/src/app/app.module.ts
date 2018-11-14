@@ -17,6 +17,8 @@ import {AboutUsComponent} from './aboutUs/aboutUs.component';
 import {BlogComponent} from './blog/blog.component';
 import {getBrowserLoggingCb} from '@angular-devkit/build-angular';
 import {ContactUsComponent} from './contactUs/contact.component';
+import {PlayComponent} from './play/play.component';
+import {WorkComponent} from './work/work.component';
 
 @NgModule({
   declarations: [AppComponent,
@@ -30,13 +32,17 @@ import {ContactUsComponent} from './contactUs/contact.component';
     ContactInfoComponent,
     AboutUsComponent,
     BlogComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    PlayComponent,
+    WorkComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       {path: '', component: LandingComponent},
       {path: 'livePage', component: LiveComponent},
+      {path: 'play', component: PlayComponent},
+      {path: 'work', component: WorkComponent},
       {path: 'homePage', component: HomepageComponent},
       {path: 'services', component: ServicesComponent},
       {path: 'aboutUs', component: AboutUsComponent},

@@ -10,7 +10,7 @@
       <ng-container *ngIf="image.show">
 
         <div>
-          <img class="w-100" [src]="image.url">
+         <a [routerLink]="[image.page]"><img class="w-100" [src]="image.url"></a>
         </div>
       </ng-container>
     </div>
