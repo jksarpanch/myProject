@@ -8,7 +8,7 @@ export class HomepageComponent {
   imageCollection = [];
   constructor() {
     for (let i = 0; i < 3; i++) {
-      const url = 'src/assets/homePage/homePage' + (i + 1) + '.jpg';
+      const url = '../assets/homePage/homePage' + (i + 1) + '.jpg';
 
       this.imageCollection[i] = {
         url: url,

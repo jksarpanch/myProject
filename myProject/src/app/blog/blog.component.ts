@@ -8,7 +8,7 @@ export class BlogComponent {
   imageCollection = [];
   constructor() {
     for (let i = 0; i < 3; i++) {
-      const url = 'src/assets/blog/WorkshopNo5Branding-' + (i + 1) + '.png';
+      const url = '../assets/blog/WorkshopNo5Branding-' + (i + 1) + '.png';
 
       this.imageCollection[i] = {
         url: url,

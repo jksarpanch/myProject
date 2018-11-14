@@ -8,7 +8,7 @@ export class AboutUsComponent {
   singleImage: any = {};
   constructor() {
     for (let i = 0; i < 4; i++) {
-      const url = 'src/assets/aboutUs/WorkshopNo5Branding-' + (i + 1) + '.png';
+      const url = '../assets/aboutUs/WorkshopNo5Branding-' + (i + 1) + '.png';
 
       this.imageCollection[i] = {
         url: url,
@@ -19,7 +19,7 @@ export class AboutUsComponent {
       };
     }
     this.singleImage = {
-      url : 'src/assets/aboutUs/WorkshopNo5Branding-31.png',
+      url : '../assets/aboutUs/WorkshopNo5Branding-31.png',
       show: false
     };
   }
