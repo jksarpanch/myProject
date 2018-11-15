@@ -19,6 +19,7 @@ import {getBrowserLoggingCb} from '@angular-devkit/build-angular';
 import {ContactUsComponent} from './contactUs/contact.component';
 import {PlayComponent} from './play/play.component';
 import {WorkComponent} from './work/work.component';
+import {ProductDetailsComponent} from './productDetails/productDetails.component';
 
 @NgModule({
   declarations: [AppComponent,
@@ -34,7 +35,8 @@ import {WorkComponent} from './work/work.component';
     BlogComponent,
     ContactUsComponent,
     PlayComponent,
-    WorkComponent
+    WorkComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,9 @@ import {WorkComponent} from './work/work.component';
       {path: 'services', component: ServicesComponent},
       {path: 'aboutUs', component: AboutUsComponent},
       {path: 'blog', component: BlogComponent},
-      {path: 'contactUs', component: ContactUsComponent}
+      {path: 'contactUs', component: ContactUsComponent},
+      {path: 'productDetails/:id', component: ProductDetailsComponent},
+      {path: 'productDetails', component: ProductDetailsComponent}
     ]),
     NavModule,
     DeferLoadModule

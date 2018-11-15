@@ -1,14 +1,11 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
-
 
 @Component({
-  templateUrl: './live.component.html',
-  styleUrls: ['./live.component.css']
+  templateUrl: './productDetails.component.html'
 })
-export class LiveComponent {
+export class ProductDetailsComponent {
   imageCollection = [];
-  constructor(private router: Router) {
+  constructor() {
     for (let i = 0; i < 10; i++) {
       const url = '../assets/live/image' + (i + 1) + '.png';
 
@@ -54,8 +51,5 @@ export class LiveComponent {
         break;
     }
     return liveName;
-  }
-  goToProject() {
-    this.router.navigate(['productDetails', '']);
   }
 }
