@@ -1,19 +1,21 @@
-<app-header [hidden]="currentUrl =='/'"></app-header>
-<!--<app-sidebar></app-sidebar>-->
 
+<!--<app-sidebar></app-sidebar>-->
+<app-header [hidden]="currentUrl =='/'"></app-header>
 <header [hidden]="currentUrl =='/'">
-  <div id="mySidenav" class="sidenav">
-    <!--<a href="javascript:void(0)" class="closebtn" (click)="navOpened=false; closeNav()"-->
-    <!--*ngIf="navOpened==true">&times;</a>-->
-    <a [routerLink]="['/livePage']" [routerLinkActive]="['router-link-active']">Live</a>
-    <a [routerLink]="['/work']" [routerLinkActive]="['router-link-active']">Work</a>
-    <a [routerLink]="['/play']" [routerLinkActive]="['router-link-active']">Play</a>
-    <a [routerLink]="['/services']" [routerLinkActive]="['router-link-active']">Services</a>
-    <a [routerLink]="['/aboutUs']" [routerLinkActive]="['router-link-active']">About</a>
-    <a [routerLink]="['/blog']" [routerLinkActive]="['router-link-active']">Blog</a>
-    <a [routerLink]="['/contactUs']" [routerLinkActive]="['router-link-active']">Contact</a>
-    <a [routerLink]="['/homePage']" [routerLinkActive]="['router-link-active']">Home</a>
-  </div>
+  <!--<div id="myNav" class="overlay">-->
+    <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
+    <!--&lt;!&ndash;*ngIf="navOpened==true">&times;</a>&ndash;&gt;-->
+    <!--<div class="overlay-content">-->
+    <!--<a [routerLink]="['/livePage']" [routerLinkActive]="['router-link-active']">Live</a>-->
+    <!--<a [routerLink]="['/work']" [routerLinkActive]="['router-link-active']">Work</a>-->
+    <!--<a [routerLink]="['/play']" [routerLinkActive]="['router-link-active']">Play</a>-->
+    <!--<a [routerLink]="['/services']" [routerLinkActive]="['router-link-active']">Services</a>-->
+    <!--<a [routerLink]="['/aboutUs']" [routerLinkActive]="['router-link-active']">About</a>-->
+    <!--<a [routerLink]="['/blog']" [routerLinkActive]="['router-link-active']">Blog</a>-->
+    <!--<a [routerLink]="['/contactUs']" [routerLinkActive]="['router-link-active']">Contact</a>-->
+    <!--<a [routerLink]="['/homePage']" [routerLinkActive]="['router-link-active']">Home</a>-->
+    <!--</div>-->
+  <!--</div>-->
   <!--<span class="m-3" style="font-size:35px;cursor:pointer; float: right;" *ngIf="navOpened==false"-->
   <!--(click)="navOpened=true;openNav()">&#9776;</span>-->
 </header>

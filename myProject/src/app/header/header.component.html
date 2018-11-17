@@ -1,16 +1,35 @@
-<nav class="navbar navbar-expand-lg fixed-top">
-  <a class="navbar-brand" href="#">No.5 </a>
+<!--<nav class="navbar navbar-expand-lg fixed-top">-->
+<!--<a class="navbar-brand" href="#">No.5 </a>-->
 
-  <div class="justify-content-end">
+<!--<div class="justify-content-end">-->
 
-    <a id="expandButton" href="javascript:void(0)" class="navToggleButton text-white" *ngIf="navOpened==false"
-       (click)="navOpened=true; openNav()">&#9776;</a>
+<!--<a id="expandButton" href="javascript:void(0)" class="navToggleButton text-white" *ngIf="navOpened==false"-->
+<!--(click)="navOpened=true; openNav()">&#9776;</a>-->
 
-    <a id="collapseButton" href="javascript:void(0)" class="navToggleButton text-white" *ngIf="navOpened==true"
-       (click)="navOpened=false; closeNav()" >&times;</a>
+<!--<a id="collapseButton" href="javascript:void(0)" class="navToggleButton text-white" *ngIf="navOpened==true"-->
+<!--(click)="navOpened=false; closeNav()" >&times;</a>-->
 
-    <!--<button class="navbar-toggler d-block" type="button" (click)="closeNav()" [ngClass]="{collapsed: collapsed}">-->
-      <!--<span class="text-white ">&times;</span>-->
-    <!--</button>-->
+<!--&lt;!&ndash;<button class="navbar-toggler d-block" type="button" (click)="closeNav()" [ngClass]="{collapsed: collapsed}">&ndash;&gt;-->
+<!--&lt;!&ndash;<span class="text-white ">&times;</span>&ndash;&gt;-->
+<!--&lt;!&ndash;</button>&ndash;&gt;-->
+<!--</div>-->
+<!--</nav>-->
+<div class="p-5">
+ <a [routerLink]="['/homePage']"><img class="noTextLogo" src="../assets/logo/logo-no-text.png" ></a>
+  <a href="javascript:void(0)"  id="expandButton" class="openBtn text-danger font-weight-bold" (click)="openNav()">&#9776;</a>
+  <div id="myNav" class="overlay">
+
+    <!--*ngIf="navOpened==true">&times;</a>-->
+    <div class="overlay-content">
+
+      <a href="javascript:void(0)" id="collapseButton" class="closebtn" (click)="closeNav()">&times;</a>
+      <a [routerLink]="['/livePage']" [routerLinkActive]="['router-link-active']">Live</a>
+      <a [routerLink]="['/work']" [routerLinkActive]="['router-link-active']">Work</a>
+      <a [routerLink]="['/play']" [routerLinkActive]="['router-link-active']">Play</a>
+      <a [routerLink]="['/services']" [routerLinkActive]="['router-link-active']">Services</a>
+      <a [routerLink]="['/aboutUs']" [routerLinkActive]="['router-link-active']">About</a>
+      <a [routerLink]="['/blog']" [routerLinkActive]="['router-link-active']">Blog</a>
+      <a [routerLink]="['/contactUs']" [routerLinkActive]="['router-link-active']">Contact</a>
+    </div>
   </div>
-</nav>
+</div>

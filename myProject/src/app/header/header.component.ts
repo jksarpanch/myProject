@@ -4,7 +4,7 @@ declare var $: any;
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+  styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
   navOpened = false;
@@ -17,16 +17,16 @@ export class HeaderComponent {
       if ((e && e.target.id !== 'expandButton')
         && (e && e.target.id !== 'collapseButton')
         && (e && e.target.className !== 'router-link-active')) {
-        document.getElementById('mySidenav').style.width = '0';
+        document.getElementById('myNav').style.width = '0%';
         this.navOpened = false;
       }
     });
   }
   openNav(): void {
-    document.getElementById('mySidenav').style.width = '400px';
+    document.getElementById('myNav').style.width = '100%';
   }
 
   closeNav(): void {
-    document.getElementById('mySidenav').style.width = '0';
+    document.getElementById('myNav').style.width = '0%';
   }
 }

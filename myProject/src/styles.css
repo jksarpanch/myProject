@@ -45,3 +45,6 @@ a:hover
   text-decoration:none;
   cursor:pointer;
 }
+html, body {
+  font-family: 'Montserrat', sans-serif;
+}
