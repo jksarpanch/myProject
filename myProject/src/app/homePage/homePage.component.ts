@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {startWith} from 'rxjs/operators';
 
 @Component({
   templateUrl: './homePage.component.html',
@@ -24,10 +23,10 @@ export class HomepageComponent {
         return '/livePage';
         break;
       case 1:
-        return '/play';
+        return '/work';
         break;
       case 2:
-        return '/work';
+        return '/play';
         break;
     }
   }

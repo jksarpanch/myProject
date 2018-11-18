@@ -1,7 +1,7 @@
 <div class="container">
 
 
-  <div class="row custom-large-margin">
+  <div class="row">
     <div class="col-md-2 col-lg-3 m-auto">
       <h1 class="font-weight-normal text-nowrap" style="font-size:5vw;">About Us</h1>
     </div>
@@ -35,12 +35,12 @@
       </div>
     </div>
 
-    <div class="row mt-4" (deferLoad)="singleImage.show = true" >
-      <img class="w-100" [src]="singleImage.url">
+    <div class="row mt-4 col-lg-12" (deferLoad)="singleImage.show = true" >
+      <img class="w-100" *ngIf="singleImage.show" [src]="singleImage.url">
     </div>
 
     <div class="row custom-large-margin mx-5 px-5">
-      <p *ngIf="singleImage.show" class="font-weight-normal m-auto display-4">Morbi tristique est ut dictum blandit.
+      <p class="font-weight-normal m-auto display-4">Morbi tristique est ut dictum blandit.
         <br/>
         Mauris eget lorem risus. Aliquam sed
         <br/>
