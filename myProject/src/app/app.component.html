@@ -1,29 +1,8 @@
-
-<!--<app-sidebar></app-sidebar>-->
 <app-header [hidden]="currentUrl =='/'"></app-header>
-<header [hidden]="currentUrl =='/'">
-  <!--<div id="myNav" class="overlay">-->
-    <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>-->
-    <!--&lt;!&ndash;*ngIf="navOpened==true">&times;</a>&ndash;&gt;-->
-    <!--<div class="overlay-content">-->
-    <!--<a [routerLink]="['/livePage']" [routerLinkActive]="['router-link-active']">Live</a>-->
-    <!--<a [routerLink]="['/work']" [routerLinkActive]="['router-link-active']">Work</a>-->
-    <!--<a [routerLink]="['/play']" [routerLinkActive]="['router-link-active']">Play</a>-->
-    <!--<a [routerLink]="['/services']" [routerLinkActive]="['router-link-active']">Services</a>-->
-    <!--<a [routerLink]="['/aboutUs']" [routerLinkActive]="['router-link-active']">About</a>-->
-    <!--<a [routerLink]="['/blog']" [routerLinkActive]="['router-link-active']">Blog</a>-->
-    <!--<a [routerLink]="['/contactUs']" [routerLinkActive]="['router-link-active']">Contact</a>-->
-    <!--<a [routerLink]="['/homePage']" [routerLinkActive]="['router-link-active']">Home</a>-->
-    <!--</div>-->
-  <!--</div>-->
-  <!--<span class="m-3" style="font-size:35px;cursor:pointer; float: right;" *ngIf="navOpened==false"-->
-  <!--(click)="navOpened=true;openNav()">&#9776;</span>-->
-</header>
-<!--<div class="pt-5">-->
-<!--<div><label><a [routerLink]="['/newPage']">testLink</a></label></div>-->
+<header [hidden]="currentUrl =='/'"></header>
 
 <!--</div>-->
-<div [ngClass]="currentUrl =='/'?'':'margin-large'">
-    <router-outlet></router-outlet>
+<div [ngClass]="currentUrl =='/'?'':'mt-5'">
+  <router-outlet></router-outlet>
 </div>
 <app-footer [hidden]="currentUrl =='/'"></app-footer>

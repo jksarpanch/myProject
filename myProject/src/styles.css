@@ -12,14 +12,14 @@
 /*@media(max-width : 575px){body{background: gray;}}*/
 
 .btn-danger{
-  background-color: #d81225!important;
+  background-color: #D11B25!important;
 }
 html {
   height: 100%;
 }
 
 .router-link-active {
-  color: #d81225 !important;
+  color: #D11B25 !important;
   font-weight: bold;
 }
 
@@ -28,7 +28,7 @@ html {
   display: block;
   width: 1rem;
   padding-top: 10px;
-  border-bottom: 2px solid #d81225;
+  border-bottom: 2px solid #D11B25;
 }
 
 .custom-large-margin{
