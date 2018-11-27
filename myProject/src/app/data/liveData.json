@@ -1,0 +1,56 @@
+{
+  "liveComponent" : [
+    {
+      "url" : "../assets/live/image1.png'",
+      "name" : "RichCreek",
+      "show" : false
+    },
+    {
+      "url" : "../assets/live/image2.png'",
+      "name" : "Finley",
+      "show" : false
+    },
+    {
+      "url" : "../assets/live/image3.png'",
+      "name" : "ALEGRIA",
+      "show" : false
+    },
+    {
+      "url" : "../assets/live/image4.png'",
+      "name" : "ENFIELD RD.",
+      "show" : false
+    },
+    {
+      "url" : "../assets/live/image5.png'",
+      "name" : "SOUTH 2ND BUNGLOWS",
+      "show" : false
+    },
+    {
+      "url" : "../assets/live/image6.png'",
+      "name" : "KNOLLWOOD COVE RD.",
+      "show" : false
+    },
+    {
+      "url" : "../assets/live/image7.png'",
+      "name" : "WEST 9TH ST.",
+      "show" : false
+    },
+    {
+      "url" : "../assets/live/image8.png'",
+      "name" : "VENADO",
+      "show" : false
+    },
+    {
+      "url" : "../assets/live/image9.png'",
+      "name" : "WEST 49TH ST.",
+      "show" : false
+    },
+    {
+      "url" : "../assets/live/image10.png'",
+      "name" : "PEREZ",
+      "show" : false
+    }
+  ]
+
+
+}
