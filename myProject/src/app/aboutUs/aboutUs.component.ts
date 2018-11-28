@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   templateUrl: './aboutUs.component.html',
+  styleUrls: ['./about.component.css']
 })
 export class AboutUsComponent {
   imageCollection = [];
