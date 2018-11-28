@@ -3,39 +3,41 @@
   <section>
     <div class="row">
       <div class="col-md-5 col-lg-5 m-auto">
-        <h1>Play</h1>
-        <h4>Residential Architecture & Interior Design</h4>
+        <h1 class="font-weight-bold display-3">Play</h1>
+        <h1 class="font-weight-normal mt-4">Residential Architecture & Interior Design</h1>
       </div>
       <div class="col-md-7 col-lg-7">
         <img class="w-100" src="../assets/live/live-header.png">
       </div>
     </div>
-    <div class="row mt-5">
+    <div class="row mt-5 col-lg-11 m-auto">
       <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-5">
         <ng-container *ngIf="image.show">
           <div>
-            <img class="w-100" [src]="image.url">
+            <a (click)="goToProject()"><img class="w-100" [src]="image.url"></a>
             <label class="mt-3 custom-border">{{image.name}}</label>
           </div>
         </ng-container>
       </div>
     </div>
-  </section>
-  <section class="my-5 card bg-light border-0">
-    <div class="row">
-      <div class="col-sm-6 col-md-6 col-lg-7">
-        <img class="w-100" src="../assets/live/image11.png">
+    </section>
+    <section class="my-5 card border-0 p-4">
+      <div class="row col-lg-11 m-auto bg-light p-0">
+        <div class="col-sm-6 col-md-6 col-lg-6 p-0">
+          <img class="w-100" src="../assets/live/image11.png">
+        </div>
+        <div class="col-sm-5 col-md-5 col-lg-5 m-auto">
+  
+          <h5 class="m-0 font"> <a [routerLink]="['/work']" class="text-dark">Work <i class="fa fa-long-arrow-right ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></h5>
+  
+          <div class="dropdown-divider mr-4 my-4"></div>
+          <h5 class="m-0"> <a [routerLink]="['/play']" class="text-dark">Play <i class="fa fa-long-arrow-right ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></h5>
+          <div class="dropdown-divider mr-4 my-4"></div>
+          <h5 class="m-0"> <a class="text-dark">Our Process <i class="fa fa-long-arrow-right ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></h5>
+        </div>
       </div>
-      <div class="col-sm-5 col-md-5 col-lg-4 m-auto">
-
-        <h5 class="m-0"> <a >Work</a><i class="fa fa-long-arrow-right ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></h5>
-
-        <div class="dropdown-divider mr-4 my-4"></div>
-        <h5 class="m-0"> <a>Play <i class="fa fa-long-arrow-right ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></h5>
-        <div class="dropdown-divider mr-4 my-4"></div>
-        <h5 class="m-0"> <a>Our Process <i class="fa fa-long-arrow-right ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></h5>
-      </div>
-    </div>
-  </section>
-
-</div>
+    </section>
+  
+  </div>
+  <app-contactinfo-component></app-contactinfo-component>
+  

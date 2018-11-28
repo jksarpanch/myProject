@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   templateUrl: './work.component.html'
@@ -6,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class WorkComponent {
   imageCollection = [];
-  constructor() {
+  constructor(private router: Router) {
     for (let i = 0; i < 10; i++) {
       const url = '../assets/live/image' + (i + 1) + '.png';
 
@@ -52,5 +53,8 @@ export class WorkComponent {
         break;
     }
     return liveName;
+  }
+  goToProject() {
+    this.router.navigate(['productDetails', '']);
   }
 }

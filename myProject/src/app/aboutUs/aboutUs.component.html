@@ -35,8 +35,8 @@
       </div>
     </div>
 
-    <div class="row mt-4 col-lg-12" (deferLoad)="singleImage.show = true" >
-      <img class="w-100" *ngIf="singleImage.show" [src]="singleImage.url">
+    <div class="row mt-4  col-lg-12 " (deferLoad)="singleImage.show = true" >
+      <img class="w-100 img-fluid" alt="Responsive image" *ngIf="singleImage.show" [src]="singleImage.url">
     </div>
 
     <div class="row custom-large-margin mx-5 px-5">
