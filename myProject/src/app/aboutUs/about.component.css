@@ -1,0 +1,30 @@
+.negative-margin {
+    margin-left: -14.33%;
+    margin-right: -14.33%;
+}
+@media screen and (max-width: 1136px) and (min-width: 728px) {
+.negative-y-margin{
+    margin-top: -28%;
+    margin-bottom: -28%;
+}
+}
+
+@media screen and (max-width: 728px) and (min-width: 598px) {
+    .negative-y-margin{
+        margin-top: -70%;
+        margin-bottom: -70%;
+    }
+}
+
+@media screen and (max-width: 598px) and (min-width: 532px) {
+    .negative-y-margin{
+        margin-top: -110%;
+        margin-bottom: -110%;
+    }
+}
+@media screen and (max-width: 532px){
+    .negative-y-margin{
+        margin-top: -185%;
+        margin-bottom: -185%;
+    }
+}
