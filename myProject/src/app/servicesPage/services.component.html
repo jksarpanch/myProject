@@ -102,13 +102,13 @@
       </div>
       <div class="col-sm-5 col-md-5 col-lg-5 m-auto">
 
-        <label class="m-0"> <a>Live</a><i class="fa fa-long-arrow-right ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></label>
+        <h5 class="m-0 font"> <a [routerLink]="['/livePage']" class="text-dark">Live <i class="fa fa-long-arrow-right ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></h5>
 
-        <div class="dropdown-divider mr-4"></div>
-        <label class="m-0"> <a>Work <i class="fa fa-long-arrow-right ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></label>
-        <div class="dropdown-divider mr-4"></div>
-        <label class="m-0"> <a>Play <i class="fa fa-long-arrow-right ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></label>
-      </div>
+        <div class="dropdown-divider mr-4 my-4"></div>
+        <h5 class="m-0"> <a [routerLink]="['/work']" class="text-dark">Work <i class="fa fa-long-arrow-right ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></h5>
+        <div class="dropdown-divider mr-4 my-4"></div>
+        <h5 class="m-0"> <a [routerLink]="['/play']" class="text-dark">Play <i class="fa fa-long-arrow-right ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></h5>
+      </div>     
     </div>
   </section>
 
