@@ -4,13 +4,6 @@
 
 
 /* custom Styles start from here */
-
-/*@media(min-width : 576px){body{background: cyan;}}*/
-/*@media(min-width : 768px){body{background: lightblue;}}*/
-/*@media(min-width : 992px){body{background: lightgreen;}}*/
-/*@media(min-width : 1200px){body{background: white}}*/
-/*@media(max-width : 575px){body{background: gray;}}*/
-
 .btn-danger{
   background-color: #D11B25!important;
 }
@@ -40,12 +33,30 @@ html {
 }
 .custom-10p-x-margin{
   margin-left: 10%!important;
-  margin-left: 10%!important;
+  margin-right: 10%!important;
 }
 
+/* @media (min-width: 1200px) and (max-width: 1400px){
+
 .container {
-  max-width: 1440px!important;
+  max-width: 1020px;   
 }
+} */
+
+@media (min-width: 1200px){
+.container {
+  width: auto!important;
+  max-width: 85%!important;
+  margin: 0 10% 0 10%;   
+}
+}
+@media (max-width: 1200px){
+  .container {
+    width: auto!important;
+    max-width: 85%!important;
+    margin: 0 10% 0 10%;   
+  }
+  }
 
 
 a:hover
@@ -56,4 +67,17 @@ a:hover
 }
 html, body {
   font-family: 'Montserrat', sans-serif;
+}
+
+
+@media (min-width: 386px){
+
+.px-xs-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+.py-xs-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 }

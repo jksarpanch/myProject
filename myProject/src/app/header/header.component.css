@@ -61,11 +61,15 @@
 }
 
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 450px), (max-width: 1100px){
   .overlay a {font-size: 20px}
   .overlay .closebtn {
     font-size: 40px;
     top: 15px;
+    right: 35px;
+  }
+  .openBtn {   
+    top: 35px;
     right: 35px;
   }
   .noTextLogo{
@@ -76,11 +80,11 @@
   }
 }
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1550px) and (min-width: 1100px) {
   .openBtn {
     position: absolute;
     top: 60px;
-    right: 10px;
+    right: 4%;
     font-size: 50px;
     z-index: 1;
   }

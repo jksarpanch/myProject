@@ -2,16 +2,16 @@
 
 <section>
   <div class="row">
-    <div class="col-md-5 col-lg-5 m-auto">
-      <h1 class="font-weight-bold display-3">Live</h1>
-      <h1 class="font-weight-normal mt-4">Residential Architecture & Interior Design</h1>
+    <div class="col-md-6 col-lg-5 m-auto">
+      <h1 class="font-weight-bold display-4">Live</h1>
+      <h2 class="font-weight-normal mt-4">Residential Architecture & Interior Design</h2>
     </div>
-    <div class="col-md-7 col-lg-7">
+    <div class="col-md-6 col-lg-7">
       <img class="w-100" src="../assets/live/live-header.png">
     </div>
   </div>
-  <div class="row mt-5 col-lg-11 m-auto">
-    <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-5">
+  <div class="row mt-5 col-lg-11 m-auto px-xs-0 px-md-3">
+    <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-5 px-xs-0 px-md-3">
       <ng-container *ngIf="image.show">
         <div>
           <a (click)="goToProject()"><img class="w-100" [src]="image.url"></a>
