@@ -13,21 +13,23 @@
 }
 
 .overlay-content {
+  opacity: 0.9;
   background-color: white;
   position: relative;
   padding-top: 10%;
-  width: 35%;
+  width: 28%;
   height : 100%;
   text-align: left;
-  padding-left: 8%;
+  padding-left: 6%;
   min-width: 386px;
   overflow-y: scroll;
+  font-family: 'Cardo', serif;
 }
 
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 40px;
+  font-size: 32px;
   color: black;
   display: block;
   transition: 0.3s;

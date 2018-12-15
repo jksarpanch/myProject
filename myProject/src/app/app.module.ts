@@ -20,6 +20,8 @@ import {ContactUsComponent} from './contactUs/contact.component';
 import {PlayComponent} from './play/play.component';
 import {WorkComponent} from './work/work.component';
 import {ProductDetailsComponent} from './productDetails/productDetails.component';
+import { HttpClientModule } from '@angular/common/http';
+import { NgxSpinnerModule } from 'ngx-spinner';
 
 @NgModule({
   declarations: [AppComponent,
@@ -40,6 +42,8 @@ import {ProductDetailsComponent} from './productDetails/productDetails.component
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
+    NgxSpinnerModule,
     RouterModule.forRoot([
       {path: '', component: LandingComponent},
       {path: 'livePage', component: LiveComponent},

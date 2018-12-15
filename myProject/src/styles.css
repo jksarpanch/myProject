@@ -69,15 +69,29 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+@media (min-width: 386px) {
 
-@media (min-width: 386px){
-
-.px-xs-0 {
+  .px-xs-0 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .py-xs-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
-.py-xs-0 {
-  padding-top: 0;
-  padding-bottom: 0;
+
+my-xs-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
+.black-overlay{
+  position: fixed!important;
+}
+.font-montserrat{
+ font-family: 'Montserrat', sans-serif;
+}
+.font-cardo{
+  font-family: 'Cardo', serif;
 }

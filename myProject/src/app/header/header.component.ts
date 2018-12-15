@@ -1,4 +1,4 @@
-import { Component, Output, EventEmitter } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 declare var $: any;
 
 @Component({
@@ -6,7 +6,8 @@ declare var $: any;
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit{
+  @Input() currentUrl;
   navOpened = false;
   constructor() {
     this.toggleTitle();
@@ -28,5 +29,8 @@ export class HeaderComponent {
 
   closeNav(): void {
     document.getElementById('myNav').style.width = '0%';
+  }
+  ngOnInit() {
+    console.log(this.currentUrl);
   }
 }

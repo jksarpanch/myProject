@@ -1,6 +1,10 @@
 <div class="px-5 pt-5">
- <a [routerLink]="['/homePage']"><img class="noTextLogo" src="../assets/logo/logo-no-text.png" ></a>
-  <a href="javascript:void(0)"  id="expandButton" class="openBtn text-danger font-weight-bold" (click)="openNav()">&#9776;</a>
+  <a *ngIf="currentUrl!='/homePage'" [routerLink]="['/homePage']"><img class="noTextLogo" src="../assets/logo/logo-no-text.png"></a>
+
+  <div class="row text-center m-auto p-2" *ngIf="currentUrl && currentUrl=='/homePage'" style="max-height: 200px; max-width: 400px;">
+    <img class="m-auto w-100" src="../assets/logo/footer-logo.png">
+  </div>
+  <a href="javascript:void(0)" id="expandButton" class="openBtn text-danger font-weight-bold" (click)="openNav()">&#9776;</a>
   <div id="myNav" class="overlay">
 
     <!--*ngIf="navOpened==true">&times;</a>-->

@@ -1,61 +1,25 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import { Router } from '@angular/router';
-
-
+import { HttpClient } from '@angular/common/http';
+import { NgxSpinnerService } from 'ngx-spinner';
 @Component({
   templateUrl: './live.component.html',
   styleUrls: ['./live.component.css']
 })
-export class LiveComponent {
+export class LiveComponent  implements OnInit {
   imageCollection = [];
-  constructor(private router: Router) {
-    for (let i = 0; i < 10; i++) {
-      const url = '../assets/live/image' + (i + 1) + '.png';
-
-      this.imageCollection[i] = {
-        url: url,
-        name : this.getNames(i),
-        show: false
-      };
-    }
-  }
-  getNames(i): string {
-    let liveName = '';
-    switch (i) {
-      case 0 :
-        liveName = 'RichCreek';
-        break;
-      case 1 :
-        liveName = 'Finley';
-        break;
-      case 2 :
-        liveName = 'ALEGRIA';
-        break;
-      case 3 :
-        liveName = 'ENFIELD RD.';
-        break;
-      case 4 :
-        liveName = 'SOUTH 2ND BUNGLOWS';
-        break;
-      case 5 :
-        liveName = 'KNOLLWOOD COVE RD.';
-        break;
-      case 6 :
-        liveName = 'WEST 9TH ST.';
-        break;
-      case 7 :
-        liveName = 'VENADO';
-        break;
-      case 8 :
-        liveName = 'WEST 49TH ST.';
-        break;
-      case 9 :
-        liveName = 'PEREZ';
-        break;
-    }
-    return liveName;
-  }
+  constructor(private router: Router, private http: HttpClient, private spinner: NgxSpinnerService) {}
   goToProject() {
     this.router.navigate(['productDetails', '']);
+  }
+  ngOnInit() {
+    this.spinner.show();
+    this.http.get('../assets/data/liveData.json')
+      .subscribe((data: any) => { setTimeout( () => {
+        this.imageCollection = data.liveComponent;
+        window.scroll( 0, 0);
+        this.spinner.hide();
+      }, 2000);
+      });
   }
 }
