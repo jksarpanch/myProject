@@ -1,7 +1,7 @@
 <div class="container">
 
   <div class="row">
-    <div class="col-md-3 col-lg-3 m-auto">
+    <div class="col-md-3 col-lg-3 m-auto font-cardo">
       <h1 class="font-weight-bold text-nowrap text-left" style="font-size:4vw;">About Us</h1>
     </div>
     <div class="col-md-8 offset-md-1 col-lg-7">
@@ -9,7 +9,7 @@
     </div>
   </div>
 
-  <section class="my-5 custom-large-top-margin card bg-light border-0 p-2 negative-margin">
+  <section class="my-5 custom-large-top-margin card bg-light border-0 p-2 negative-margin font-cardo">
     <div class="row card-body m-auto">
       <p style="font-size:1.6rem;" class="p-5 custom-10p-x-margin">Workshop No. 5 was begun with the purpose of researching and designing concepts which provide for their environments.
       From up-cycling builing materials to designing smart homes which live synergistically with their occupants and self-healing buildings which strengthen over time,
@@ -19,16 +19,16 @@
   </section>
 
   <section style="padding:20px 80px 20px 80px;">
-   <h5 class="font-weight-normal custom-border">MEET THE TEAM</h5>
+   <h4 class="font-weight-bold custom-border">MEET THE TEAM</h4>
 
-    <div class="row mt-4">
+    <div class="row mt-3">
       <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-5">
         <ng-container *ngIf="image.show">
           <div>
             <img style="width:97%" [src]="image.url">
-            <h5 class="mt-5 custom-border font-weight-normal">{{image.title}}</h5>
-            <h1 class="mt-4 font-weight-bold">{{image.name}}</h1>
-            <p class="mt-4" style="font-size:2rem;">{{image.description}}</p>
+            <h5 class="mt-5 custom-border font-weight-bold">{{image.title}}</h5>
+            <h1 class="mt-4  font-cardo">{{image.name}}</h1>
+            <p class="mt-4 font-cardo" style="font-size:2rem;">{{image.description}}</p>
           </div>
         </ng-container>
       </div>
@@ -38,8 +38,8 @@
       <img class="negative-y-margin w-100" style="min-width: 350px; object-fit:scale-down;" alt="Responsive image" *ngIf="singleImage.show" [src]="singleImage.url">
     </div>
 
-    <div class="row custom-large-top-margin mx-md-5 px-md-5">
-      <p class="font-weight-normal m-auto display-4" style="font-size: 3.5vw;">Morbi tristique est ut dictum blandit.
+    <div class="row custom-large-top-margin mx-md-5 px-md-5 font-cardo">
+      <p class="font-weight-normal m-auto" style="font-size: 3vw;">Morbi tristique est ut dictum blandit.
         <br/>
         Mauris eget lorem risus. Aliquam sed
         <br/>
