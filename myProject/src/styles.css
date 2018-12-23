@@ -69,7 +69,7 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
-@media (min-width: 386px) {
+@media (min-width: 320px) {
 
   .px-xs-0 {
     padding-left: 0;
@@ -94,4 +94,12 @@ my-xs-1 {
 }
 .font-cardo{
   font-family: 'Cardo', serif;
+}
+
+.decentFont{
+  font-size : 1.4rem
+}
+
+.betterFont{
+  font-size : 1.6rem
 }
