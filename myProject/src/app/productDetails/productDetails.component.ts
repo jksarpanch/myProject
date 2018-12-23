@@ -52,4 +52,12 @@ export class ProductDetailsComponent {
     }
     return liveName;
   }
+  nextImage() {
+    // @ts-ignore
+    $('#projectCarousel').carousel('next');
+  }
+  prevImage() {
+    // @ts-ignore
+    $('#projectCarousel').carousel('prev');
+  }
 }

@@ -56,6 +56,9 @@ html {
     max-width: 85%!important;
     margin: 0 10% 0 10%;   
   }
+  .small-font{
+    font-size : 3rem;
+  }
   }
 
 
@@ -103,3 +106,5 @@ my-xs-1 {
 .betterFont{
   font-size : 1.6rem
 }
+
+
