@@ -9,7 +9,7 @@ export class PlayComponent {
   imageCollection = [];
   constructor(private router: Router) {
     for (let i = 0; i < 10; i++) {
-      const url = '../assets/live/image' + (i + 1) + '.png';
+      const url = '../assets/live/image' + (i + 1) + '.jpg';
 
       this.imageCollection[i] = {
         url: url,

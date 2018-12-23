@@ -1,52 +1,52 @@
 {
   "liveComponent" : [
     {
-      "url" : "../assets/live/image1.png",
+      "url" : "../assets/live/image1.jpg",
       "name" : "RICHCREEK",
       "show" : false
     },
     {
-      "url" : "../assets/live/image2.png",
+      "url" : "../assets/live/image2.jpg",
       "name" : "FINLEY",
       "show" : false
     },
     {
-      "url" : "../assets/live/image3.png",
+      "url" : "../assets/live/image3.jpg",
       "name" : "ALEGRIA",
       "show" : false
     },
     {
-      "url" : "../assets/live/image4.png",
+      "url" : "../assets/live/image4.jpg",
       "name" : "ENFIELD RD.",
       "show" : false
     },
     {
-      "url" : "../assets/live/image5.png",
+      "url" : "../assets/live/image5.jpg",
       "name" : "SOUTH 2ND BUNGLOWS",
       "show" : false
     },
     {
-      "url" : "../assets/live/image6.png",
+      "url" : "../assets/live/image6.jpg",
       "name" : "KNOLLWOOD COVE RD.",
       "show" : false
     },
     {
-      "url" : "../assets/live/image7.png",
+      "url" : "../assets/live/image7.jpg",
       "name" : "WEST 9TH ST.",
       "show" : false
     },
     {
-      "url" : "../assets/live/image8.png",
+      "url" : "../assets/live/image8.jpg",
       "name" : "VENADO",
       "show" : false
     },
     {
-      "url" : "../assets/live/image9.png",
+      "url" : "../assets/live/image9.jpg",
       "name" : "WEST 49TH ST.",
       "show" : false
     },
     {
-      "url" : "../assets/live/image10.png",
+      "url" : "../assets/live/image10.jpg",
       "name" : "PEREZ",
       "show" : false
     }
