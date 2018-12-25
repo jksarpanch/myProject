@@ -177,6 +177,281 @@
           "show": false
         }
       ]
+    },
+    {
+      "id": "3",
+      "projectName": "ALEGRIA",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/live/Alegeria/image1.jpg",
+          "name": "Alegeria",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image2.jpg",
+          "name": "Alegeria",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image4.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image5.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image6.jpg",
+          "name": "KNOLLWOOD COVE RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image8.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image9.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image9.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image10.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image11.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image12.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image13.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Alegeria/image14.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "projectName": "Enfield",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/live/Enfield/image1.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Enfield/image2.jpg",
+          "name": "Enfield",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Enfield/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Enfield/image4.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Enfield/image5.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Enfield/image6.jpg",
+          "name": "KNOLLWOOD COVE RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Enfield/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "projectName": "South 2nd Bunglows",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/live/S2Bunglows/image1.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/S2Bunglows/image2.jpg",
+          "name": "test",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/S2Bunglows/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/S2Bunglows/image4.jpg",
+          "name": "test RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/S2Bunglows/image5.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "projectName": "Knollwood",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/live/knollwood/image1.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/knollwood/image2.jpg",
+          "name": "test",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "projectName": "West 9th St.",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/live/West9St/image1.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/West9St/image2.jpg",
+          "name": "test",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/West9St/image3.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/West9St/image4.jpg",
+          "name": "test",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/West9St/image5.jpg",
+          "name": "Finley",
+          "show": false
+        }
+      ]
     }
   ]
 }

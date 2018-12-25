@@ -10,6 +10,7 @@ export interface IProjectData {
 }
 
 @Component({
+  styleUrls: ['./productDetails.component.css'],
   templateUrl: './productDetails.component.html'
 })
 
