@@ -1,0 +1,11 @@
+.product-carousel{
+  max-height: 600px;
+  min-height: 350px;
+}
+
+@media (min-width: 386px) {
+  .product-carousel {
+    max-height: 600px;
+    min-height: 250px;
+  }
+}

@@ -1,63 +1,54 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {NgxSpinnerService} from 'ngx-spinner';
+import {HttpClient} from '@angular/common/http';
+import {map} from 'rxjs/operators';
+import {ActivatedRoute} from '@angular/router';
+
+
+export interface IProjectData {
+  projectData: any[];
+}
 
 @Component({
   templateUrl: './productDetails.component.html'
 })
-export class ProductDetailsComponent {
-  imageCollection = [];
-  constructor() {
-    for (let i = 0; i < 10; i++) {
-      const url = '../assets/live/image' + (i + 1) + '.jpg';
 
-      this.imageCollection[i] = {
-        url: url,
-        name : this.getNames(i),
-        show: false
-      };
-    }
+export class ProductDetailsComponent implements OnInit {
+  projectData = {};
+  imageCollection = [];
+
+  constructor(private http: HttpClient,
+              private spinner: NgxSpinnerService,
+              private route: ActivatedRoute
+  ) {
   }
-  getNames(i): string {
-    let liveName = '';
-    switch (i) {
-      case 0 :
-        liveName = 'RichCreek';
-        break;
-      case 1 :
-        liveName = 'Finley';
-        break;
-      case 2 :
-        liveName = 'ALEGRIA';
-        break;
-      case 3 :
-        liveName = 'ENFIELD RD.';
-        break;
-      case 4 :
-        liveName = 'SOUTH 2ND BUNGLOWS';
-        break;
-      case 5 :
-        liveName = 'KNOLLWOOD COVE RD.';
-        break;
-      case 6 :
-        liveName = 'WEST 9TH ST.';
-        break;
-      case 7 :
-        liveName = 'VENADO';
-        break;
-      case 8 :
-        liveName = 'WEST 49TH ST.';
-        break;
-      case 9 :
-        liveName = 'PEREZ';
-        break;
-    }
-    return liveName;
-  }
+
   nextImage() {
     // @ts-ignore
     $('#projectCarousel').carousel('next');
   }
+
   prevImage() {
     // @ts-ignore
     $('#projectCarousel').carousel('prev');
+  }
+
+  ngOnInit() {
+    this.spinner.show();
+    const currentProjectId = this.route.snapshot.params['id'];
+    this.http.get<IProjectData>('../assets/data/projectDetails/projectDetailsData.json')
+      .pipe(
+        map(data => {
+          return data.projectData.filter(item => item.id == currentProjectId)[0];
+        }, error => error)
+      )
+      .subscribe((data) => {
+        setTimeout(() => {
+          this.projectData = data;
+          this.imageCollection = data.projectDetails;
+          window.scroll(0, 0);
+          this.spinner.hide();
+        }, 2000);
+      });
   }
 }

@@ -1,40 +1,47 @@
 <div class="container">
-
+<!--TODO: JSS Need to add this. Need to set size of image matching all other images
+ {
+      "url" : "../../assets/live/CameronResidence/image1.jpg",
+      "name" : "RichCreek",
+      "show" : false
+    },
+-->
   <section>
     <div class="row">
-      <div class="col-md-6 col-lg-5 m-auto font-cardo">
-        <h1 class="display-3 small-font">Project Details</h1>
-        <p class="mt-md-4" style="font-size: 1.6rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          laboris nisi ut aliquip ex ea commodo consequat</p>
+      <div class="col-md-12 col-lg-5 m-auto font-cardo">
+        <h1 class="display-3 small-font">{{projectData.projectName}}</h1>
+        <p class="mt-md-4" style="font-size: 1.6rem;">{{projectData.projectdescription}}</p>
 
         <div class="m-auto">
 
-          <h4 class="m-0 mt-5 text-muted font-weight-normal">Bhavani Singal, Architect</h4>
+          <span *ngFor="let person of projectData.projectPersons; let i = index">
+            <h5 class="m-0 text-muted font-weight-normal"
+                [ngClass]="{'mt-5':i==0}">{{person.name}}, {{person.position}}</h5>
 
-          <div class="dropdown-divider mr-4 my-4"></div>
-          <h5 class="m-0 text-muted font-weight-normal">Jennifer</h5>
-          <div class="dropdown-divider mr-4 my-4"></div>
-          <h5 class="m-0 text-muted font-weight-normal">Connor</h5>
+            <div class="dropdown-divider mr-4 my-4" *ngIf="i!==(projectData.projectPersons.length-1)"></div>
+          </span>
+
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-6 text-center">
+      <div class="col-md-12 col-lg-7 m-auto">
 
-        <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+        <div id="projectCarousel" class="carousel slide my-4" data-ride="carousel">
 
           <!-- The slideshow -->
-          <div class="carousel-inner">
-            <div [className]="i==1 ? 'carousel-item active' : 'carousel-item'" *ngFor="let image of imageCollection; let i = index">
-              <img class="d-block w-100" [src]="image.url" [alt]="image.name">
+          <div class="carousel-inner product-carousel">
+            <div [className]="i==1 ? 'carousel-item active' : 'carousel-item'"
+                 *ngFor="let image of imageCollection; let i = index">
+              <img class="d-block w-100 h-100" [src]="image.url" [alt]="image.name">
             </div>
           </div>
+          <div class="row justify-content-center mt-0 mt-sm-5 font-weight-bold">
+            <a (click)="prevImage()">Previous</a>
+            <span class="mx-3">/</span>
+            <a (click)="nextImage()">Next</a>
+          </div>
         </div>
-        <div class="row justify-content-center mt-3 font-weight-bold">
-          <a (click)="prevImage()">Previous</a>
-          <span class="mx-3">/</span>
-          <a (click)="nextImage()">Next</a>
-        </div>
+
       </div>
 
     </div>

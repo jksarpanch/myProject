@@ -1,0 +1,182 @@
+{
+  "projectData": [
+    {
+      "id": "10",
+      "projectName": "Cameron Residence",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/live/CameronResidence/image2.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image4.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image5.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image6.jpg",
+          "name": "KNOLLWOOD COVE RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image8.jpg",
+          "name": "VENADO",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image9.jpg",
+          "name": "WEST 49TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image10.jpg",
+          "name": "PEREZ",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "projectName": "Richcreek Residence",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/live/RichcreekResidence/image2.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/RichcreekResidence/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/RichcreekResidence/image4.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/RichcreekResidence/image5.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/RichcreekResidence/image6.jpg",
+          "name": "KNOLLWOOD COVE RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/RichcreekResidence/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/RichcreekResidence/image8.jpg",
+          "name": "VENADO",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "projectName": "FINLEY",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/live/Finley/image1.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Finley/image2.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Finley/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Finley/image4.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Finley/image5.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Finley/image6.jpg",
+          "name": "KNOLLWOOD COVE RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Finley/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        }
+      ]
+    }
+  ]
+}

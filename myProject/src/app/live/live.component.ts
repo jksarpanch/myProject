@@ -6,11 +6,11 @@ import { NgxSpinnerService } from 'ngx-spinner';
   templateUrl: './live.component.html',
   styleUrls: ['./live.component.css']
 })
-export class LiveComponent  implements OnInit {
+export class LiveComponent implements OnInit {
   imageCollection = [];
   constructor(private router: Router, private http: HttpClient, private spinner: NgxSpinnerService) {}
-  goToProject() {
-    this.router.navigate(['productDetails', '']);
+  goToProject(id) {
+    this.router.navigate(['productDetails', id]);
   }
   ngOnInit() {
     this.spinner.show();
