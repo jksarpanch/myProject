@@ -1,75 +1,10 @@
 {
   "projectData": [
     {
-      "id": "10",
-      "projectName": "Cameron Residence",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
-      "projectPersons": [
-        {
-          "name": "Bhavani Singal",
-          "position": "Architect"
-        },
-        {
-          "name": "Jennifer Stout",
-          "position": "Interior Designer"
-        },
-        {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
-        }
-      ],
-      "projectDetails": [
-        {
-          "url": "../../assets/live/CameronResidence/image2.jpg",
-          "name": "Finley",
-          "show": false
-        },
-        {
-          "url": "../../assets/live/CameronResidence/image3.jpg",
-          "name": "ALEGRIA",
-          "show": false
-        },
-        {
-          "url": "../../assets/live/CameronResidence/image4.jpg",
-          "name": "ENFIELD RD.",
-          "show": false
-        },
-        {
-          "url": "../../assets/live/CameronResidence/image5.jpg",
-          "name": "SOUTH 2ND BUNGLOWS",
-          "show": false
-        },
-        {
-          "url": "../../assets/live/CameronResidence/image6.jpg",
-          "name": "KNOLLWOOD COVE RD.",
-          "show": false
-        },
-        {
-          "url": "../../assets/live/CameronResidence/image7.jpg",
-          "name": "WEST 9TH ST.",
-          "show": false
-        },
-        {
-          "url": "../../assets/live/CameronResidence/image8.jpg",
-          "name": "VENADO",
-          "show": false
-        },
-        {
-          "url": "../../assets/live/CameronResidence/image9.jpg",
-          "name": "WEST 49TH ST.",
-          "show": false
-        },
-        {
-          "url": "../../assets/live/CameronResidence/image10.jpg",
-          "name": "PEREZ",
-          "show": false
-        }
-      ]
-    },
-    {
       "id": "1",
       "projectName": "Richcreek Residence",
       "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/live/RichcreekResidence/image7.jpg",
       "projectPersons": [
         {
           "name": "Bhavani Singal",
@@ -86,38 +21,33 @@
       ],
       "projectDetails": [
         {
-          "url": "../../assets/live/RichcreekResidence/image2.jpg",
+          "url": "../../assets/live/RichcreekResidence/image1.jpg",
           "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/RichcreekResidence/image2.jpg",
+          "name": "ALEGRIA",
           "show": false
         },
         {
           "url": "../../assets/live/RichcreekResidence/image3.jpg",
-          "name": "ALEGRIA",
-          "show": false
-        },
-        {
-          "url": "../../assets/live/RichcreekResidence/image4.jpg",
           "name": "ENFIELD RD.",
           "show": false
         },
         {
-          "url": "../../assets/live/RichcreekResidence/image5.jpg",
+          "url": "../../assets/live/RichcreekResidence/image4.jpg",
           "name": "SOUTH 2ND BUNGLOWS",
           "show": false
         },
         {
-          "url": "../../assets/live/RichcreekResidence/image6.jpg",
-          "name": "KNOLLWOOD COVE RD.",
-          "show": false
-        },
-        {
-          "url": "../../assets/live/RichcreekResidence/image7.jpg",
+          "url": "../../assets/live/RichcreekResidence/image5.jpg",
           "name": "WEST 9TH ST.",
           "show": false
         },
         {
-          "url": "../../assets/live/RichcreekResidence/image8.jpg",
-          "name": "VENADO",
+          "url": "../../assets/live/RichcreekResidence/image6.jpg",
+          "name": "Venado",
           "show": false
         }
       ]
@@ -126,6 +56,7 @@
       "id": "2",
       "projectName": "FINLEY",
       "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/live/Finley/image1.jpg",
       "projectPersons": [
         {
           "name": "Bhavani Singal",
@@ -142,23 +73,18 @@
       ],
       "projectDetails": [
         {
-          "url": "../../assets/live/Finley/image1.jpg",
-          "name": "Finley",
-          "show": false
-        },
-        {
           "url": "../../assets/live/Finley/image2.jpg",
           "name": "Finley",
           "show": false
         },
         {
-          "url": "../../assets/live/Finley/image3.jpg",
-          "name": "ALEGRIA",
+          "url": "../../assets/live/Finley/image4.jpg",
+          "name": "ENFIELD RD.",
           "show": false
         },
         {
-          "url": "../../assets/live/Finley/image4.jpg",
-          "name": "ENFIELD RD.",
+          "url": "../../assets/live/Finley/image3.jpg",
+          "name": "ALEGRIA",
           "show": false
         },
         {
@@ -182,6 +108,7 @@
       "id": "3",
       "projectName": "ALEGRIA",
       "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/live/Alegeria/image1.jpg",
       "projectPersons": [
         {
           "name": "Bhavani Singal",
@@ -197,11 +124,6 @@
         }
       ],
       "projectDetails": [
-        {
-          "url": "../../assets/live/Alegeria/image1.jpg",
-          "name": "Alegeria",
-          "show": false
-        },
         {
           "url": "../../assets/live/Alegeria/image2.jpg",
           "name": "Alegeria",
@@ -276,8 +198,9 @@
     },
     {
       "id": "4",
-      "projectName": "Enfield",
+      "projectName": "3302 Enfield Rd",
       "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/live/Enfield/image5.jpg",
       "projectPersons": [
         {
           "name": "Bhavani Singal",
@@ -314,17 +237,32 @@
           "show": false
         },
         {
-          "url": "../../assets/live/Enfield/image5.jpg",
+          "url": "../../assets/live/Enfield/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Enfield/image8.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Enfield/image9.jpg",
           "name": "SOUTH 2ND BUNGLOWS",
           "show": false
         },
         {
-          "url": "../../assets/live/Enfield/image6.jpg",
+          "url": "../../assets/live/Enfield/image10.jpg",
           "name": "KNOLLWOOD COVE RD.",
           "show": false
         },
         {
-          "url": "../../assets/live/Enfield/image7.jpg",
+          "url": "../../assets/live/Enfield/image11.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Enfield/image12.jpg",
           "name": "WEST 9TH ST.",
           "show": false
         }
@@ -334,6 +272,7 @@
       "id": "5",
       "projectName": "South 2nd Bunglows",
       "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/live/S2Bunglows/image5.jpg",
       "projectPersons": [
         {
           "name": "Bhavani Singal",
@@ -349,16 +288,7 @@
         }
       ],
       "projectDetails": [
-        {
-          "url": "../../assets/live/S2Bunglows/image1.jpg",
-          "name": "Finley",
-          "show": false
-        },
-        {
-          "url": "../../assets/live/S2Bunglows/image2.jpg",
-          "name": "test",
-          "show": false
-        },
+
         {
           "url": "../../assets/live/S2Bunglows/image3.jpg",
           "name": "ALEGRIA",
@@ -370,16 +300,22 @@
           "show": false
         },
         {
-          "url": "../../assets/live/S2Bunglows/image5.jpg",
-          "name": "SOUTH 2ND BUNGLOWS",
+          "url": "../../assets/live/S2Bunglows/image2.jpg",
+          "name": "test",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/S2Bunglows/image1.jpg",
+          "name": "Finley",
           "show": false
         }
       ]
     },
     {
       "id": "6",
-      "projectName": "Knollwood",
+      "projectName": "Knollwood Cove",
       "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/live/knollwood/image1.jpg",
       "projectPersons": [
         {
           "name": "Bhavani Singal",
@@ -396,11 +332,6 @@
       ],
       "projectDetails": [
         {
-          "url": "../../assets/live/knollwood/image1.jpg",
-          "name": "Finley",
-          "show": false
-        },
-        {
           "url": "../../assets/live/knollwood/image2.jpg",
           "name": "test",
           "show": false
@@ -411,6 +342,7 @@
       "id": "7",
       "projectName": "West 9th St.",
       "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/live/Venado/image5.jpg",
       "projectPersons": [
         {
           "name": "Bhavani Singal",
@@ -432,15 +364,11 @@
           "show": false
         },
         {
-          "url": "../../assets/live/West9St/image2.jpg",
-          "name": "test",
-          "show": false
-        },
-        {
           "url": "../../assets/live/West9St/image3.jpg",
           "name": "Finley",
           "show": false
         },
+
         {
           "url": "../../assets/live/West9St/image4.jpg",
           "name": "test",
@@ -449,6 +377,165 @@
         {
           "url": "../../assets/live/West9St/image5.jpg",
           "name": "Finley",
+          "show": false
+        }
+
+      ]
+    },
+    {
+      "id": "8",
+      "projectName": "Venado",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/live/Venado/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/live/Venado/image2.jpg",
+          "name": "test",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "projectName": "West 49th Street",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/live/w_49/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/live/w_49/image1.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/w_49/image2.jpg",
+          "name": "test",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "projectName": "Perez Residence",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/live/Perez/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/live/Perez/image1.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/Perez/image2.jpg",
+          "name": "test",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "projectName": "Cameron Residence",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/live/CameronResidence/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/live/CameronResidence/image2.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image4.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image5.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image6.jpg",
+          "name": "KNOLLWOOD COVE RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image8.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image9.jpg",
+          "name": "WEST 49TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/live/CameronResidence/image10.jpg",
+          "name": "PEREZ",
           "show": false
         }
       ]

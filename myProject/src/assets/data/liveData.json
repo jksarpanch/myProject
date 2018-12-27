@@ -59,6 +59,12 @@
       "url" : "../assets/live/image10.jpg",
       "name" : "PEREZ",
       "show" : false
+    },
+    {
+      "id" : 11,
+      "url" : "../assets/live/image12.jpg",
+      "name" : "Cameron",
+      "show" : false
     }
   ]
 

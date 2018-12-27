@@ -17,6 +17,7 @@ export interface IProjectData {
 export class ProductDetailsComponent implements OnInit {
   projectData = {};
   imageCollection = [];
+  mainImageUrl;
 
   constructor(private http: HttpClient,
               private spinner: NgxSpinnerService,
@@ -41,12 +42,13 @@ export class ProductDetailsComponent implements OnInit {
       .pipe(
         map(data => {
           return data.projectData.filter(item => item.id == currentProjectId)[0];
-        }, error => error)
+        })
       )
       .subscribe((data) => {
         setTimeout(() => {
           this.projectData = data;
           this.imageCollection = data.projectDetails;
+          this.mainImageUrl = data.mainImageUrl;
           window.scroll(0, 0);
           this.spinner.hide();
         }, 2000);

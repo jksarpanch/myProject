@@ -20,8 +20,10 @@ import {ContactUsComponent} from './contactUs/contact.component';
 import {PlayComponent} from './play/play.component';
 import {WorkComponent} from './work/work.component';
 import {ProductDetailsComponent} from './productDetails/productDetails.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { HttpErrorInterceptor } from './common/components/http-error.interceptor';
+
 
 @NgModule({
   declarations: [AppComponent,
@@ -60,7 +62,11 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     NavModule,
     DeferLoadModule
   ],
-  providers: [],
+  providers: [{
+    provide: HTTP_INTERCEPTORS,
+    useClass: HttpErrorInterceptor,
+    multi: true
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule {

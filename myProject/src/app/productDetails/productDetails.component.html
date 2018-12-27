@@ -6,9 +6,9 @@
       "show" : false
     },
 -->
-  <section class="clearfix">
-    <div class="row clearfix">
-      <div class="col-md-12 col-lg-5 m-auto font-cardo">
+  <section>
+    <div class="row">
+      <div class="col-md-5 col-lg-5 font-cardo">
         <h1 class="display-3 small-font">{{projectData.projectName}}</h1>
         <p class="mt-md-4" style="font-size: 1.6rem;">{{projectData.projectdescription}}</p>
 
@@ -24,40 +24,45 @@
         </div>
       </div>
 
-      <div class="col-md-12 col-lg-7 m-auto">
-
-        <div id="projectCarousel" class="carousel slide my-4" data-ride="carousel">
-
-          <!-- The slideshow -->
-          <div class="carousel-inner product-carousel clearfix">
-            <div [className]="i==1 ? 'carousel-item active' : 'carousel-item'"
-                 *ngFor="let image of imageCollection; let i = index">
-              <img class="d-block w-100" [src]="image.url" [alt]="image.name">
-            </div>
-          </div>
-          <div class="row justify-content-center mt-0 mt-sm-5 font-weight-bold">
-            <a (click)="prevImage()">Previous</a>
-            <span class="mx-3">/</span>
-            <a (click)="nextImage()">Next</a>
-          </div>
-        </div>
-
+      <div class="col-md-6 col-lg-6 offset-md-1" *ngIf="mainImageUrl">
+        <img class="w-100" [src]="mainImageUrl">
       </div>
+
+      <!--TODO JSS in case required Carousel behavior-->
+      <!--<div class="col-md-12 col-lg-7 m-auto">-->
+
+        <!--<div id="projectCarousel" class="carousel slide my-4" data-ride="carousel">-->
+
+          <!--&lt;!&ndash; The slideshow &ndash;&gt;-->
+          <!--<div class="carousel-inner product-carousel clearfix">-->
+            <!--<div [className]="i==1 ? 'carousel-item active' : 'carousel-item'"-->
+                 <!--*ngFor="let image of imageCollection; let i = index">-->
+              <!--<img class="d-block w-100" [src]="image.url" [alt]="image.name">-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="row justify-content-center mt-0 mt-sm-5 font-weight-bold">-->
+            <!--<a (click)="prevImage()">Previous</a>-->
+            <!--<span class="mx-3">/</span>-->
+            <!--<a (click)="nextImage()">Next</a>-->
+          <!--</div>-->
+        <!--</div>-->
+
+      <!--</div>-->
 
     </div>
 
 
     <!--Normal behavior-->
-    <!--<div class="row mt-5 col-lg-11 m-auto px-xs-0 px-md-3">-->
-      <!--<div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-5 px-xs-0 px-md-3">-->
-        <!--<ng-container *ngIf="image.show">-->
-          <!--<div>-->
-            <!--<img class="w-100" [src]="image.url">-->
-            <!--<h4 class="mt-4 custom-border font-weight-bold">{{image.name}}</h4>-->
-          <!--</div>-->
-        <!--</ng-container>-->
-      <!--</div>-->
-    <!--</div>-->
+    <div class="row mt-5 col-lg-11 m-auto px-xs-0 px-md-3">
+      <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-5 px-xs-0 px-md-3">
+        <ng-container *ngIf="image.show">
+          <div>
+            <img class="w-100" [src]="image.url">
+            <h4 class="mt-4 custom-border font-weight-bold">{{image.name}}</h4>
+          </div>
+        </ng-container>
+      </div>
+    </div>
 
 
   </section>
