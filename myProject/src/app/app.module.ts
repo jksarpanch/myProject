@@ -56,7 +56,7 @@ import { HttpErrorInterceptor } from './common/components/http-error.interceptor
       {path: 'aboutUs', component: AboutUsComponent},
       {path: 'blog', component: BlogComponent},
       {path: 'contactUs', component: ContactUsComponent},
-      {path: 'productDetails/:id', component: ProductDetailsComponent},
+      {path: 'productDetails/:page/:id', component: ProductDetailsComponent},
       {path: 'productDetails', component: ProductDetailsComponent}
     ]),
     NavModule,

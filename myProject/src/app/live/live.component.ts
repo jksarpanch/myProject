@@ -10,7 +10,7 @@ export class LiveComponent implements OnInit {
   imageCollection = [];
   constructor(private router: Router, private http: HttpClient, private spinner: NgxSpinnerService) {}
   goToProject(id) {
-    this.router.navigate(['productDetails', id]);
+    this.router.navigate(['productDetails', {'id': id, 'page': 'live'}]);
   }
   ngOnInit() {
     this.spinner.show();

@@ -1,0 +1,54 @@
+{
+  "liveComponent" : [
+    {
+      "id" : 1,
+      "url" : "../assets/work/image1.jpg",
+      "name" : "Met Retail",
+      "show" : false
+    },
+    {
+      "id" : 2,
+      "url" : "../assets/work/image2.jpg",
+      "name" : "Central Texas Food Bank",
+      "show" : false
+    },
+
+    {
+      "id" : 5,
+      "url" : "../assets/work/image5.jpg",
+      "name" : "Holcomb",
+      "show" : false
+    },
+    {
+      "id" : 6,
+      "url" : "../assets/work/image6.jpg",
+      "name" : "Riata Vista",
+      "show" : false
+    },
+    {
+      "id" : 7,
+      "url" : "../assets/work/image7.jpg",
+      "name" : "Tech Company",
+      "show" : false
+    },
+    {
+      "id" : 8,
+      "url" : "../assets/work/image8.jpg",
+      "name" : "Karisha",
+      "show" : false
+    },
+    {
+      "id" : 3,
+      "url" : "../assets/work/image3.jpg",
+      "name" : "Rackspace",
+      "show" : false
+    },
+    {
+      "id" : 4,
+      "url" : "../assets/work/image4.jpg",
+      "name" : "Capitol Commons",
+      "show" : false
+    }
+  ]
+
+}

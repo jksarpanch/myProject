@@ -25,20 +25,24 @@ export class ProductDetailsComponent implements OnInit {
   ) {
   }
 
-  nextImage() {
-    // @ts-ignore
-    $('#projectCarousel').carousel('next');
-  }
-
-  prevImage() {
-    // @ts-ignore
-    $('#projectCarousel').carousel('prev');
-  }
-
   ngOnInit() {
     this.spinner.show();
     const currentProjectId = this.route.snapshot.params['id'];
-    this.http.get<IProjectData>('../assets/data/projectDetails/projectDetailsData.json')
+    const currentPage = this.route.snapshot.params['page'];
+    let currentUrl = ' ../assets/data/projectDetails/projectDetailsData.json';
+    switch (currentPage) {
+      case 'live':
+        currentUrl = '../assets/data/projectDetails/projectDetailsData.json';
+        break;
+      case 'work':
+        currentUrl = '../assets/data/work/projectDetails/projectDetailsData.json';
+        break;
+      default:
+        return null;
+    }
+
+
+    this.http.get<IProjectData>(currentUrl)
       .pipe(
         map(data => {
           return data.projectData.filter(item => item.id == currentProjectId)[0];
