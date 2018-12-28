@@ -58,7 +58,7 @@ export class ProductDetailsComponent implements OnInit {
           this.mainImageUrl = data.mainImageUrl;
           window.scroll(0, 0);
           this.spinner.hide();
-        }, 2000);
+        }, 500);
       });
   }
 }
