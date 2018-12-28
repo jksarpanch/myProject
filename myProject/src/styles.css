@@ -2,11 +2,11 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~font-awesome/css/font-awesome.min.css';
 
-
 /* custom Styles start from here */
-.btn-danger{
-  background-color: #D11B25!important;
+.btn-danger {
+  background-color: #D11B25 !important;
 }
+
 html {
   height: 100%;
 }
@@ -16,7 +16,7 @@ html {
   font-weight: bold;
 }
 
-.custom-border:after{
+.custom-border:after {
   content: "";
   display: block;
   width: 1rem;
@@ -24,16 +24,18 @@ html {
   border-bottom: 2px solid #D11B25;
 }
 
-.custom-large-top-margin{
-  margin-top: 120px!important;
+.custom-large-top-margin {
+  margin-top: 120px !important;
 }
-.custom-large-y-margin{
-  margin-top: 120px!important;
-  margin-bottom: 120px!important;
+
+.custom-large-y-margin {
+  margin-top: 120px !important;
+  margin-bottom: 120px !important;
 }
-.custom-10p-x-margin{
-  margin-left: 10%!important;
-  margin-right: 10%!important;
+
+.custom-10p-x-margin {
+  margin-left: 10% !important;
+  margin-right: 10% !important;
 }
 
 /* @media (min-width: 1200px) and (max-width: 1400px){
@@ -43,31 +45,44 @@ html {
 }
 } */
 
-@media (min-width: 1200px){
-.container {
-  width: auto!important;
-  max-width: 85%!important;
-  margin: 0 10% 0 10%;   
-}
-}
-@media (max-width: 1200px){
+@media (min-width: 1200px) {
   .container {
-    width: auto!important;
-    max-width: 85%!important;
-    margin: 0 10% 0 10%;   
+    width: auto !important;
+    max-width: 85% !important;
+    margin: 0 10% 0 10%;
   }
-  .small-font{
-    font-size : 3rem;
-  }
-  }
-
-
-a:hover
-{
-  color:white;
-  text-decoration:none;
-  cursor:pointer;
 }
+
+@media (max-width: 1200px) {
+  .container {
+    width: auto !important;
+    max-width: 85% !important;
+    margin: 0 10% 0 10%;
+  }
+
+  .small-font {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: auto !important;
+    max-width: 85% !important;
+    margin: 0 5% 0 5%;
+  }
+
+  .small-font {
+    font-size: 3rem;
+  }
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 html, body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -89,22 +104,25 @@ my-xs-1 {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.black-overlay{
-  position: fixed!important;
+
+.black-overlay {
+  position: fixed !important;
 }
-.font-montserrat{
- font-family: 'Montserrat', sans-serif;
+
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif;
 }
-.font-cardo{
+
+.font-cardo {
   font-family: 'Cardo', serif;
 }
 
-.decentFont{
-  font-size : 1.4rem
+.decentFont {
+  font-size: 1.4rem
 }
 
-.betterFont{
-  font-size : 1.6rem
+.betterFont {
+  font-size: 1.6rem
 }
 
 
