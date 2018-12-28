@@ -18,7 +18,7 @@ export class WorkComponent implements OnInit {
         this.imageCollection = data.workComponent;
         window.scroll( 0, 0);
         this.spinner.hide();
-      }, 2000);
+      }, 500);
       });
   }
 }

@@ -19,7 +19,7 @@ export class LiveComponent implements OnInit {
         this.imageCollection = data.liveComponent;
         window.scroll( 0, 0);
         this.spinner.hide();
-      }, 2000);
+      }, 500);
       });
   }
 }
