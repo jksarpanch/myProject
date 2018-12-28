@@ -11,9 +11,7 @@
 
   <section class="my-5 custom-large-top-margin card bg-light border-0 p-2 negative-margin font-cardo">
     <div class="row card-body m-auto">
-      <p style="font-size:1.6rem;" class="p-5 custom-10p-x-margin">Workshop No. 5 was begun with the purpose of researching and designing concepts which provide for their environments.
-      From up-cycling builing materials to designing smart homes which live synergistically with their occupants and self-healing buildings which strengthen over time,
-      we are actively looking for ways to improve on the old scholls of architecture.
+      <p style="font-size:1.6rem;" class="p-5 custom-10p-x-margin">Workshop No. 5 was founded with superb craftsmanship and sustainable design in mind. Driven to inspire and captivate, we create harmonic spaces that are equal parts artful and functional. Our practice is rooted in natural materials. We actively seek out new ways to improve on old schools of architecture by upcycling and sourcing sustainable materials. Although we draw inspiration from modern schools of design, our work is timeless in nature. Workshop No. 5 approaches each project through collaboration, understanding, and elevated design. We facilitate open and communicative dialogues with our clients that lead to outstanding outcomes. Simply imaginative, our work always incorporates creative solutions that result in beautiful yet functional spaces that transcend expectations.
       </p>
     </div>
   </section>
@@ -28,7 +26,9 @@
             <img style="width:97%" [src]="image.url">
             <h5 class="mt-5 custom-border font-weight-bold">{{image.title}}</h5>
             <h1 class="mt-4  font-cardo">{{image.name}}</h1>
-            <p class="mt-4 font-cardo" style="font-size:2rem;">{{image.description}}</p>
+            <p class="mt-4 font-cardo" style="font-size:1.4rem;">{{image.description}}<span *ngIf="image.additionalDescription"><br/>{{image.additionalDescription}}</span></p>
+
+
           </div>
         </ng-container>
       </div>
@@ -39,11 +39,11 @@
     </div>
 
     <div class="row custom-large-top-margin mx-md-5 px-md-5 font-cardo">
-      <p class="font-weight-normal m-auto" style="font-size: 3vw;">Morbi tristique est ut dictum blandit.
+      <p class="font-weight-normal m-auto" style="font-size: 3vw;">The Goal isn’t to live forever.
         <br/>
-        Mauris eget lorem risus. Aliquam sed
+        The goal is to create something that will.
         <br/>
-        lorem iaculis, Fermentum.
+        - Chuck Palahniuk.
       </p>
 
     </div>

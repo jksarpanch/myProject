@@ -3,20 +3,16 @@
     {
       "id": "1",
       "projectName": "Richcreek Residence",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": "Craftsman Inspired;4 bedrooms, 3.5 baths, 2800 sf; Playful family home that features an atticplayroom",
       "mainImageUrl" : "../../assets/live/RichcreekResidence/image7.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No.5",
           "position": "Architect"
         },
         {
-          "name": "Jennifer Stout",
-          "position": "Interior Designer"
-        },
-        {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "name": "Reed Construction",
+          "position": "Contactor"
         }
       ],
       "projectDetails": [
@@ -54,21 +50,21 @@
     },
     {
       "id": "2",
-      "projectName": "FINLEY",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectName": "Finley Residence",
+      "projectdescription": "Mid-Century Modern;4 bedrooms, 3 baths, 3430 sf; Backyard Studio; Vaulted entry with clerestory",
       "mainImageUrl" : "../../assets/live/Finley/image1.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
         },
         {
-          "name": "Jennifer Stout",
+          "name": "Amy Mosier",
           "position": "Interior Designer"
         },
         {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "name": "Austin Modern Properties",
+          "position": "Contractor"
         }
       ],
       "projectDetails": [
@@ -106,21 +102,17 @@
     },
     {
       "id": "3",
-      "projectName": "ALEGRIA",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectName": "Alegria Residence",
+      "projectdescription": "Modern farmhouse style;3 bedrooms, 2.5 baths, 2800 sf; Shiplap dining; Glassy entry; Blue island",
       "mainImageUrl" : "../../assets/live/Alegeria/image1.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
         },
         {
-          "name": "Jennifer Stout",
-          "position": "Interior Designer"
-        },
-        {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "name": "Reed Construction",
+          "position": "Contractor"
         }
       ],
       "projectDetails": [
@@ -212,7 +204,7 @@
         },
         {
           "name": "Connor Lowry",
-          "position": "Conttactor"
+          "position": "Contractor"
         }
       ],
       "projectDetails": [
@@ -270,21 +262,21 @@
     },
     {
       "id": "5",
-      "projectName": "South 2nd Bunglows",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectName": "South 2nd St. Bunglows",
+      "projectdescription": "Urban Farmhouse; Units A1/A2-3 bedrooms, 2.5 Bathrooms, 2100 sf. Units B1/B2-2 bedrooms, 1.5 Bathrooms, 1050 sf.;Single Family with ADU; Breezeway & Courtyard",
       "mainImageUrl" : "../../assets/live/S2Bunglows/image5.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
         },
         {
-          "name": "Jennifer Stout",
+          "name": "Amy Mosier",
           "position": "Interior Designer"
         },
         {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "name": "Austin Modern Properties",
+          "position": "Contractor"
         }
       ],
       "projectDetails": [
@@ -314,20 +306,20 @@
     {
       "id": "6",
       "projectName": "Knollwood Cove",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": "Inspired by mid-century architecture; 4 bedrooms, 4 baths, 3400 sf; Nestled in the site; Two decks; Hall of windows",
       "mainImageUrl" : "../../assets/live/knollwood/image1.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
         },
         {
-          "name": "Jennifer Stout",
+          "name": "Amy Mosier",
           "position": "Interior Designer"
         },
         {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "name": "Austin Modern Properties",
+          "position": "Contractor"
         }
       ],
       "projectDetails": [
@@ -341,20 +333,20 @@
     {
       "id": "7",
       "projectName": "West 9th St.",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": "Contemporary architecture in Deep Eddy neighborhood;4 bedrooms, 3.5 baths,study,3600 sf; Basement apartment; Distinct spaces; Floating staircase; Private courtyard",
       "mainImageUrl" : "../../assets/live/Venado/image5.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
         },
         {
-          "name": "Jennifer Stout",
+          "name": "Amy Mosier",
           "position": "Interior Designer"
         },
         {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "name": "Austin Modern Properties",
+          "position": "Contractor"
         }
       ],
       "projectDetails": [
@@ -389,16 +381,16 @@
       "mainImageUrl" : "../../assets/live/Venado/image1.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
         },
         {
-          "name": "Jennifer Stout",
+          "name": "Amy Mosier",
           "position": "Interior Designer"
         },
         {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "name": "Austin Modern Properties",
+          "position": "Contractor"
         }
       ],
       "projectDetails": [
@@ -412,20 +404,20 @@
     {
       "id": "9",
       "projectName": "West 49th Street",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": "Butterfly roof; 3bedrooms, 2.5 bath, 3150 sf.;Attic exemption, Modern architecture",
       "mainImageUrl" : "../../assets/live/w_49/image1.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
         },
         {
-          "name": "Jennifer Stout",
+          "name": "Amy Mosier",
           "position": "Interior Designer"
         },
         {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "name": "Austin Modern Properties",
+          "position": "Contractor"
         }
       ],
       "projectDetails": [
@@ -444,20 +436,12 @@
     {
       "id": "10",
       "projectName": "Perez Residence",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": "Contemporary facelift;3 bedrooms, 2 baths, 2100 sf; Floodplain variance, Roof deck; Site full of restrictions",
       "mainImageUrl" : "../../assets/live/Perez/image1.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
-        },
-        {
-          "name": "Jennifer Stout",
-          "position": "Interior Designer"
-        },
-        {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
         }
       ],
       "projectDetails": [
@@ -476,20 +460,20 @@
     {
       "id": "11",
       "projectName": "Cameron Residence",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": "Lake View; 3 bedrooms,3 baths, 2500 sf; Nestled into the bluff; Designed to maximize sustainable living",
       "mainImageUrl" : "../../assets/live/CameronResidence/image1.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
         },
         {
-          "name": "Jennifer Stout",
+          "name": "Jackie Burke",
           "position": "Interior Designer"
         },
         {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "name": "Native",
+          "position": "Contractor"
         }
       ],
       "projectDetails": [

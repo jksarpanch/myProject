@@ -16,7 +16,7 @@
         },
         {
           "name": "Connor Lowry",
-          "position": "Conttactor"
+          "position": "Contractor"
         }
       ],
       "projectDetails": [
@@ -41,20 +41,16 @@
     {
       "id": "2",
       "projectName": "Estancia",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": "Rehabilitation of existing restaurant; Facelift; Wine Bar",
       "mainImageUrl" : "../../assets/play/Estancia/image1.jpg",
       "projectPersons": [
         {
+          "name": "Studio 8",
+          "position": "Architect of Record"
+        },
+        {
           "name": "Bhavani Singal",
-          "position": "Architect"
-        },
-        {
-          "name": "Jennifer Stout",
-          "position": "Interior Designer"
-        },
-        {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "position": "Project Manager and Designer"
         }
       ],
       "projectDetails": [
@@ -93,20 +89,16 @@
     {
       "id": "3",
       "projectName": "Ella Wooten",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": "Timeless Inspiration; Park with pool house, which contains a staff office, open air changing areas, vending, and restroom facilities; Open air; AGBP 4-star rating",
       "mainImageUrl" : "../../assets/play/EllaWooten/image17.jpg",
       "projectPersons": [
         {
+          "name": "Studio 8",
+          "position": "Architect of Record"
+        },
+        {
           "name": "Bhavani Singal",
-          "position": "Architect"
-        },
-        {
-          "name": "Jennifer Stout",
-          "position": "Interior Designer"
-        },
-        {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "position": "Project Manager and Designer"
         }
       ],
       "projectDetails": [
@@ -195,20 +187,20 @@
     {
       "id": "4",
       "projectName": "Rocco's",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": "Old Style Deli; Renovation of existing restaurant and church into new restaurant space",
       "mainImageUrl" : "../../assets/play/Rocco/image1.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
         },
         {
-          "name": "Jennifer Stout",
+          "name": "Workshop No. 5",
           "position": "Interior Designer"
         },
         {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "name": "Villani + Graham Construction",
+          "position": "Contractor"
         }
       ],
       "projectDetails": [
@@ -222,20 +214,24 @@
     {
       "id": "5",
       "projectName": "Trails @ Leander Amenity",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": "Timeless Design; Amenity Center for residential community includes a pool, pool house with bathrooms, an open-airpavilion for grilling and movies, and a playscape",
       "mainImageUrl" : "../../assets/play/TrailsLeander/image1.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
         },
         {
-          "name": "Jennifer Stout",
-          "position": "Interior Designer"
+          "name": "Pharis Design",
+          "position": "Landscape Architect"
         },
         {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "name": "Joe Copeland",
+          "position": "Contractor"
+        },
+        {
+          "name": "Liquid Assets",
+          "position": "Pool"
         }
       ],
       "projectDetails": [
@@ -254,20 +250,24 @@
     {
       "id": "6",
       "projectName": "Winding Oaks Amenity Center",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": "Contemporary Architecture; Amenity Center for residential community includes a pool, pool house with bathrooms, a screened community center, and a playscape",
       "mainImageUrl" : "../../assets/play/WindingOaks/image1.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
         },
         {
-          "name": "Jennifer Stout",
-          "position": "Interior Designer"
+          "name": "Pharis Design",
+          "position": "Landscape Architect"
         },
         {
-          "name": "Connor Lowry",
-          "position": "Conttactor"
+          "name": "Latigo Construction",
+          "position": "Contractor"
+        },
+        {
+          "name": "Liquid Assets",
+          "position": "Pool"
         }
       ],
       "projectDetails": [
