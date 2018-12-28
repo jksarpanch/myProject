@@ -3,7 +3,7 @@ import {NgxSpinnerService} from 'ngx-spinner';
 import {HttpClient} from '@angular/common/http';
 import {map} from 'rxjs/operators';
 import {ActivatedRoute} from '@angular/router';
-
+import { Router } from '@angular/router';
 
 export interface IProjectData {
   projectData: any[];
@@ -21,7 +21,8 @@ export class ProductDetailsComponent implements OnInit {
 
   constructor(private http: HttpClient,
               private spinner: NgxSpinnerService,
-              private route: ActivatedRoute
+              private route: ActivatedRoute,
+              private router: Router
   ) {
   }
 
@@ -37,10 +38,12 @@ export class ProductDetailsComponent implements OnInit {
       case 'work':
         currentUrl = '../assets/data/work/projectDetails/projectDetailsData.json';
         break;
+      case 'play':
+        currentUrl = '../assets/data/play/projectDetails/projectDetailsData.json';
+        break;
       default:
-        return null;
+        this.router.navigate(['/']);
     }
-
 
     this.http.get<IProjectData>(currentUrl)
       .pipe(

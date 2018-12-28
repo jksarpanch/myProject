@@ -15,7 +15,7 @@ export class WorkComponent implements OnInit {
     this.spinner.show();
     this.http.get('../assets/data/work/workData.json')
       .subscribe((data: any) => { setTimeout( () => {
-        this.imageCollection = data.liveComponent;
+        this.imageCollection = data.workComponent;
         window.scroll( 0, 0);
         this.spinner.hide();
       }, 2000);

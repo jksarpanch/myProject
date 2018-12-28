@@ -1,0 +1,297 @@
+{
+  "projectData": [
+    {
+      "id": "1",
+      "projectName": "UT Pool",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/play/UtPool/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/play/UtPool/image3.jpg",
+          "name": "Alegeria",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/UtPool/image2.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/UtPool/image4.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        }
+      ]
+    },
+
+    {
+      "id": "2",
+      "projectName": "Estancia",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/play/Estancia/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/play/Estancia/image2.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/Estancia/image3.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/Estancia/image4.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/Estancia/image5.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/Estancia/image6.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/Estancia/image7.jpg",
+          "name": "Venado",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "projectName": "Ella Wooten",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/play/EllaWooten/image17.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/play/EllaWooten/image1.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image2.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image3.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image4.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image5.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image6.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image7.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image8.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image9.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image10.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image11.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image12.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image13.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image14.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image15.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/EllaWooten/image16.jpg",
+          "name": "Venado",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "projectName": "Rocco's",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/play/Rocco/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/play/Rocco/image2.jpg",
+          "name": "Finley",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "projectName": "Trails @ Leander Amenity",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/play/TrailsLeander/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/play/TrailsLeander/image2.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/TrailsLeander/image3.jpg",
+          "name": "test RD.",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "projectName": "Winding Oaks Amenity Center",
+      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "mainImageUrl" : "../../assets/play/WindingOaks/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/play/WindingOaks/image2.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/WindingOaks/image3.jpg",
+          "name": "test RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/WindingOaks/image4.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/play/WindingOaks/image5.jpg",
+          "name": "test RD.",
+          "show": false
+        }
+      ]
+    }
+  ]
+}
