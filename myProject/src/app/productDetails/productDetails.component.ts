@@ -4,7 +4,8 @@ import {HttpClient} from '@angular/common/http';
 import {map} from 'rxjs/operators';
 import {ActivatedRoute} from '@angular/router';
 import { Router } from '@angular/router';
-
+declare var lightGallery: any;
+declare var $: any;
 export interface IProjectData {
   projectData: any[];
 }
@@ -59,6 +60,7 @@ export class ProductDetailsComponent implements OnInit {
           window.scroll(0, 0);
           this.spinner.hide();
         }, 500);
+       lightGallery( document.getElementById('responsive-images'));
       });
   }
 }

@@ -9,8 +9,8 @@
 
     <!--*ngIf="navOpened==true">&times;</a>-->
     <div class="overlay-content">
-
       <a href="javascript:void(0)" id="collapseButton" class="closebtn" (click)="closeNav()">&times;</a>
+      <a [routerLink]="['/homePage']" [routerLinkActive]="['router-link-active']">Home</a>
       <a [routerLink]="['/livePage']" [routerLinkActive]="['router-link-active']">Live</a>
       <a [routerLink]="['/work']" [routerLinkActive]="['router-link-active']">Work</a>
       <a [routerLink]="['/play']" [routerLinkActive]="['router-link-active']">Play</a>

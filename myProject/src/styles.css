@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import '~font-awesome/css/font-awesome.min.css';
+@import '~lightgallery.js/dist/css/lightgallery.min.css';
 
 /* custom Styles start from here */
 .btn-danger {
@@ -117,6 +118,10 @@ my-xs-1 {
   font-family: 'Cardo', serif;
 }
 
+.font-1-1{
+  font-size: 1.1rem
+}
+
 .decentFont {
   font-size: 1.4rem
 }
@@ -125,4 +130,9 @@ my-xs-1 {
   font-size: 1.6rem
 }
 
-
+.custom-center-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}

@@ -3,7 +3,11 @@
     {
       "id": "1",
       "projectName": "Met Retail",
-      "projectdescription": "Blast Wall; Retail Building, 5,757 sf.; Creative design solution; Master planning",
+      "projectdescription": [
+        "Blast Wall; Retail Building, 5,757 sf",
+        "Creative design solution",
+        "Master planning"
+      ],
       "mainImageUrl" : "../../assets/work/MetRetail/image2.jpg",
       "projectPersons": [
         {
@@ -71,7 +75,10 @@
     {
       "id": "2",
       "projectName": "Central Texas Food Bank",
-      "projectdescription": "Distribution and Outreach Center for Hunger Relief, 135,000 sf.",
+      "projectdescription": [
+        "Distribution and Outreach Center for Hunger Relief",
+        "135,000 sf"
+      ],
       "mainImageUrl" : "../../assets/work/CentralFoodBank/image4.jpg",
       "projectPersons": [
         {
@@ -130,7 +137,10 @@
     {
       "id": "3",
       "projectName": "Rackspace",
-      "projectdescription": "Renovation of Windsor Park Mall into Corporate Headquarters, 346,400 sf.",
+      "projectdescription": [
+        "Renovation of Windsor Park Mall into Corporate Headquarters",
+        "346,400 sf"
+      ],
       "mainImageUrl" : "../../assets/work/Rackspace/image11.jpg",
       "projectPersons": [
         {
@@ -198,7 +208,7 @@
     {
       "id": "4",
       "projectName": "Capitol Commons",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": [],
       "mainImageUrl" : "../../assets/work/CapitolCommons/image1.jpg",
       "projectPersons": [
         {
@@ -235,7 +245,12 @@
     {
       "id": "5",
       "projectName": "Holcomb Yoga and Counseling",
-      "projectdescription": "Contemporary Architecture; 1,000 sf Yoga studio, six counselling practitioner offices; Zen garden; Self-improvement",
+      "projectdescription": [
+        "Contemporary Architecture",
+        "1,000 sf Yoga studio, six counselling practitioner offices",
+        "Zen garden; ",
+        "Self-improvement"
+      ],
       "mainImageUrl" : "src/assets/work/Holcomb/image1.jpg",
       "projectPersons": [
         {
@@ -263,7 +278,9 @@
     {
       "id": "6",
       "projectName": "Riata Vista",
-      "projectdescription": "Parking Garage on a large corporate campus",
+      "projectdescription": [
+        "Parking Garage on a large corporate campus"
+      ],
       "mainImageUrl" : "../../assets/work/RiataVista/image1.jpg",
       "projectPersons": [
         {
@@ -331,7 +348,7 @@
     {
       "id": "7",
       "projectName": "Tech Company",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": [],
       "mainImageUrl" : "src/assets/work/TechCompany/image1.jpg",
       "projectPersons": [
         {
@@ -358,7 +375,11 @@
     {
       "id": "8",
       "projectName": "Karisha Community",
-      "projectdescription": "Modern Architecture meets Mature Forest; 14,000 sffacility providing primary care, urgent care, mental health treatment, and alternative healing strategies; Integrated Healing",
+      "projectdescription": [
+        "Modern Architecture meets Mature Forest",
+        "14,000 sf facility providing primary care, urgent care, mental health treatment, and alternative healing strategies",
+        "Integrated Healing"
+      ],
       "mainImageUrl" : "../../assets/work/Karisha/image1.jpg",
       "projectPersons": [
         {

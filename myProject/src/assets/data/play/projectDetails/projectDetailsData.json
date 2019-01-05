@@ -3,7 +3,7 @@
     {
       "id": "1",
       "projectName": "UT Pool",
-      "projectdescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat",
+      "projectdescription": [],
       "mainImageUrl" : "../../assets/play/UtPool/image1.jpg",
       "projectPersons": [
         {
@@ -41,7 +41,11 @@
     {
       "id": "2",
       "projectName": "Estancia",
-      "projectdescription": "Rehabilitation of existing restaurant; Facelift; Wine Bar",
+      "projectdescription": [
+        "Rehabilitation of existing restaurant",
+        "Facelift",
+        "Wine Bar"
+      ],
       "mainImageUrl" : "../../assets/play/Estancia/image1.jpg",
       "projectPersons": [
         {
@@ -89,7 +93,12 @@
     {
       "id": "3",
       "projectName": "Ella Wooten",
-      "projectdescription": "Timeless Inspiration; Park with pool house, which contains a staff office, open air changing areas, vending, and restroom facilities; Open air; AGBP 4-star rating",
+      "projectdescription": [
+        "Timeless Inspiration",
+        "Park with pool house, which contains a staff office, open air changing areas, vending, and restroom facilities",
+        "Open air",
+        "AGBP 4-star rating"
+      ],
       "mainImageUrl" : "../../assets/play/EllaWooten/image17.jpg",
       "projectPersons": [
         {
@@ -187,7 +196,10 @@
     {
       "id": "4",
       "projectName": "Rocco's",
-      "projectdescription": "Old Style Deli; Renovation of existing restaurant and church into new restaurant space",
+      "projectdescription": [
+        "Old Style Deli",
+        "Renovation of existing restaurant and church into new restaurant space"
+      ],
       "mainImageUrl" : "../../assets/play/Rocco/image1.jpg",
       "projectPersons": [
         {
@@ -214,7 +226,10 @@
     {
       "id": "5",
       "projectName": "Trails @ Leander Amenity",
-      "projectdescription": "Timeless Design; Amenity Center for residential community includes a pool, pool house with bathrooms, an open-airpavilion for grilling and movies, and a playscape",
+      "projectdescription": [
+        "Timeless Design",
+        "Amenity Center for residential community includes a pool, pool house with bathrooms, an open-airpavilion for grilling and movies, and a playscape"
+      ],
       "mainImageUrl" : "../../assets/play/TrailsLeander/image1.jpg",
       "projectPersons": [
         {
@@ -250,7 +265,10 @@
     {
       "id": "6",
       "projectName": "Winding Oaks Amenity Center",
-      "projectdescription": "Contemporary Architecture; Amenity Center for residential community includes a pool, pool house with bathrooms, a screened community center, and a playscape",
+      "projectdescription": [
+        "Contemporary Architecture",
+        "Amenity Center for residential community includes a pool, pool house with bathrooms, a screened community center, and a playscape"
+      ],
       "mainImageUrl" : "../../assets/play/WindingOaks/image1.jpg",
       "projectPersons": [
         {

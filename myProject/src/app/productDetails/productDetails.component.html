@@ -7,10 +7,12 @@
     },
 -->
   <section>
-    <div class="row">
-      <div class="col-md-5 col-lg-5 font-cardo">
-        <h1 class="display-3 small-font">{{projectData.projectName}}</h1>
-        <p class="mt-md-4" style="font-size: 1.5rem;">{{projectData.projectdescription}}</p>
+    <div class="row mb-3">
+      <div class="col-md-5 col-lg-5 font-cardo m-auto">
+        <h1 class="display-5">{{projectData.projectName}}</h1>
+        <p class="decentFont m-1" *ngFor="let detail of projectData.projectdescription">{{detail}}</p>
+
+        <!--<p class="mt-md-4" style="font-size: 1.5rem;">{{projectData.projectdescription}}</p>-->
 
         <div class="m-auto">
 
@@ -18,13 +20,13 @@
             <h5 class="m-0 text-muted font-weight-normal"
                 [ngClass]="{'mt-5':i==0}">{{person.name}}, {{person.position}}</h5>
 
-            <div class="dropdown-divider mr-4 my-4" *ngIf="i!==(projectData.projectPersons.length-1)"></div>
+            <div class="dropdown-divider mr-4 my-3" *ngIf="i!==(projectData.projectPersons.length-1)"></div>
           </span>
 
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-6 offset-md-1" *ngIf="mainImageUrl">
+      <div class="col-md-7 col-lg-6 offset-lg-1 mt-3 mt-lg-0" *ngIf="mainImageUrl">
         <img class="w-100" [src]="mainImageUrl">
       </div>
 
@@ -54,7 +56,7 @@
 
     <!--Normal behavior-->
     <div class="row mt-5 col-lg-11 m-auto px-xs-0 px-md-3">
-      <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-5 px-xs-0 px-md-3">
+      <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-3 px-xs-0 px-md-3">
         <ng-container *ngIf="image.show">
           <div>
             <img class="w-100" [src]="image.url">
@@ -80,7 +82,7 @@
         <div class="dropdown-divider mr-4 my-md-4"></div>
         <h4 class="m-0"> <a [routerLink]="['/play']" class="text-dark">Play <i class="fa fa-long-arrow-right  ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></h4>
         <div class="dropdown-divider mr-4 my-md-4"></div>
-        <h4 class="m-0"> <a class="text-dark">Our Process <i class="fa fa-long-arrow-right ml-lg-4 ml-sm-2 ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></h4>
+        <h4 class="m-0"> <a class="text-dark" [routerLink]="['/services']">Our Process <i class="fa fa-long-arrow-right ml-lg-4 ml-sm-2 ml-4 text-danger" style="vertical-align: middle; transform: scale(1.9,1);"></i></a></h4>
       </div>
     </div>
   </section>

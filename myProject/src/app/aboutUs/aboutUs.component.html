@@ -2,33 +2,31 @@
 
   <div class="row">
     <div class="col-md-3 col-lg-3 m-auto font-cardo">
-      <h1 class="text-nowrap text-left" style="font-size:4vw;">About Us</h1>
+      <h1 class="text-nowrap text-left" style="font-size:5vw;">About Us</h1>
     </div>
     <div class="col-md-8 offset-md-1 col-lg-7">
       <img class="w-100" src="../assets/aboutUs/WorkshopNo5Branding-51.jpg">
     </div>
   </div>
 
-  <section class="my-5 custom-large-top-margin card bg-light border-0 p-2 negative-margin font-cardo">
+  <section class="my-5 mt-md-5 card bg-light border-0 p-2 negative-margin font-cardo">
     <div class="row card-body m-auto">
-      <p style="font-size:1.6rem;" class="p-5 custom-10p-x-margin">Workshop No. 5 was founded with superb craftsmanship and sustainable design in mind. Driven to inspire and captivate, we create harmonic spaces that are equal parts artful and functional. Our practice is rooted in natural materials. We actively seek out new ways to improve on old schools of architecture by upcycling and sourcing sustainable materials. Although we draw inspiration from modern schools of design, our work is timeless in nature. Workshop No. 5 approaches each project through collaboration, understanding, and elevated design. We facilitate open and communicative dialogues with our clients that lead to outstanding outcomes. Simply imaginative, our work always incorporates creative solutions that result in beautiful yet functional spaces that transcend expectations.
+      <p style="font-size:1.6rem;" class="p-md-5  custom-10p-x-margin">Workshop No. 5 was founded with superb craftsmanship and sustainable design in mind. Driven to inspire and captivate, we create harmonic spaces that are equal parts artful and functional. Our practice is rooted in natural materials. We actively seek out new ways to improve on old schools of architecture by upcycling and sourcing sustainable materials. Although we draw inspiration from modern schools of design, our work is timeless in nature. Workshop No. 5 approaches each project through collaboration, understanding, and elevated design. We facilitate open and communicative dialogues with our clients that lead to outstanding outcomes. Simply imaginative, our work always incorporates creative solutions that result in beautiful yet functional spaces that transcend expectations.
       </p>
     </div>
   </section>
 
-  <section style="padding:20px 80px 20px 80px;">
+  <section class="py-md-3 px-md-5">
    <h4 class="font-weight-bold custom-border">MEET THE TEAM</h4>
 
     <div class="row mt-3">
-      <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-5">
+      <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-md-3 my-2">
         <ng-container *ngIf="image.show">
           <div>
             <img style="width:97%" [src]="image.url">
             <h5 class="mt-5 custom-border font-weight-bold">{{image.title}}</h5>
             <h1 class="mt-4  font-cardo">{{image.name}}</h1>
-            <p class="mt-4 font-cardo" style="font-size:1.4rem;">{{image.description}}<span *ngIf="image.additionalDescription"><br/>{{image.additionalDescription}}</span></p>
-
-
+            <p class="mt-4 font-cardo font-1-1">{{image.description}}<span *ngIf="image.additionalDescription"><br/>{{image.additionalDescription}}</span></p>
           </div>
         </ng-container>
       </div>
