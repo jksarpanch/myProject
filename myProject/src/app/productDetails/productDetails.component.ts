@@ -4,8 +4,8 @@ import {HttpClient} from '@angular/common/http';
 import {map} from 'rxjs/operators';
 import {ActivatedRoute} from '@angular/router';
 import { Router } from '@angular/router';
-declare var lightGallery: any;
-declare var $: any;
+declare var lightbox:  any;
+
 export interface IProjectData {
   projectData: any[];
 }
@@ -16,18 +16,17 @@ export interface IProjectData {
 })
 
 export class ProductDetailsComponent implements OnInit {
+
   projectData = {};
   imageCollection = [];
   mainImageUrl;
-
   constructor(private http: HttpClient,
               private spinner: NgxSpinnerService,
               private route: ActivatedRoute,
               private router: Router
-  ) {
-  }
+  ) {}
 
-  ngOnInit() {
+ ngOnInit() {
     this.spinner.show();
     const currentProjectId = this.route.snapshot.params['id'];
     const currentPage = this.route.snapshot.params['page'];
@@ -59,8 +58,14 @@ export class ProductDetailsComponent implements OnInit {
           this.mainImageUrl = data.mainImageUrl;
           window.scroll(0, 0);
           this.spinner.hide();
-        }, 500);
-       lightGallery( document.getElementById('responsive-images'));
+          lightbox.option({
+            resizeDuration: 100,
+            wrapAround: true,
+            alwaysShowNavOnTouchDevices : true,
+            imageFadeDuration : 200,
+          });
+        }, 1000);
+
       });
   }
 }

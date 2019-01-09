@@ -24,7 +24,6 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { HttpErrorInterceptor } from './common/components/http-error.interceptor';
 
-
 @NgModule({
   declarations: [AppComponent,
     LandingComponent,

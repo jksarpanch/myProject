@@ -27,7 +27,7 @@
       </div>
 
       <div class="col-md-7 col-lg-6 offset-lg-1 mt-3 mt-lg-0" *ngIf="mainImageUrl">
-        <img class="w-100" [src]="mainImageUrl">
+        <a [href]="mainImageUrl" data-lightbox="projectImage"><img class="w-100" [src]="mainImageUrl"></a>
       </div>
 
       <!--TODO JSS in case required Carousel behavior-->
@@ -53,14 +53,12 @@
 
     </div>
 
-
     <!--Normal behavior-->
     <div class="row mt-5 col-lg-11 m-auto px-xs-0 px-md-3">
-      <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-3 px-xs-0 px-md-3">
+      <div *ngFor="let image of imageCollection; let i=index" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-3 px-xs-0 px-md-3">
         <ng-container *ngIf="image.show">
           <div>
-            <img class="w-100" [src]="image.url">
-            <!--<h4 class="mt-4 custom-border font-weight-bold">{{image.name}}</h4>-->
+            <a [href]="image.url" data-lightbox="projectImage"><img class="w-100" [src]="image.url"></a>
           </div>
         </ng-container>
       </div>
