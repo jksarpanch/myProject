@@ -2,29 +2,50 @@
     margin-left: -14.33%;
     margin-right: -14.33%;
 }
-@media screen and (max-width: 1136px) and (min-width: 728px) {
-.negative-y-margin{
+
+@media screen and (max-width: 1700px) and (min-width: 1500px) {
+  .negative-y-margin {
+    margin-top: -10%;
+    margin-bottom: -10%;
+  }
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1137px) {
+  .negative-y-margin {
+    margin-top: -16%;
+    margin-bottom: -16%;
+  }
+}
+@media screen and (max-width: 1136px) and (min-width: 928px) {
+  .negative-y-margin{
     margin-top: -28%;
     margin-bottom: -28%;
+  }
+}
+
+@media screen and (max-width: 927px) and (min-width: 728px) {
+.negative-y-margin{
+    margin-top: -46%;
+    margin-bottom: -44%;
 }
 }
 
 @media screen and (max-width: 728px) and (min-width: 598px) {
     .negative-y-margin{
-        margin-top: -70%;
-        margin-bottom: -70%;
+        margin-top: -52%;
+        margin-bottom: -47%;
     }
 }
 
 @media screen and (max-width: 598px) and (min-width: 532px) {
     .negative-y-margin{
-        margin-top: -110%;
-        margin-bottom: -110%;
+        margin-top: -75%;
+        margin-bottom: -68%;
     }
 }
 @media screen and (max-width: 532px){
     .negative-y-margin{
-        margin-top: -185%;
-        margin-bottom: -185%;
+        margin-top: -95%;
+        margin-bottom: -85%;
     }
 }
