@@ -10,14 +10,14 @@
     <div class="row mb-3">
       <div class="col-md-5 col-lg-5 font-cardo m-auto">
         <h1 class="display-5">{{projectData.projectName}}</h1>
-        <p class="decentFont m-1" *ngFor="let detail of projectData.projectdescription">{{detail}}</p>
+        <p class="font-1-1 m-1" *ngFor="let detail of projectData.projectdescription">{{detail}}</p>
 
         <!--<p class="mt-md-4" style="font-size: 1.5rem;">{{projectData.projectdescription}}</p>-->
 
         <div class="m-auto">
 
           <span *ngFor="let person of projectData.projectPersons; let i = index">
-            <h5 class="m-0 text-muted font-weight-normal"
+            <h5 class="m-0 text-muted font-weight-light"
                 [ngClass]="{'mt-5':i==0}">{{person.name}}, {{person.position}}</h5>
 
             <div class="dropdown-divider mr-4 my-3" *ngIf="i!==(projectData.projectPersons.length-1)"></div>
