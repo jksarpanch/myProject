@@ -5,12 +5,15 @@
         Grounded Listeners. Timeless Inspiration. Crafted Spaces
       </h1>
   </div>
-  <div class="row my-5">
-    <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-sm-4 col-md-4 col-lg-4 mt-5">
+  <div class="row my-1">
+    <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-sm-6 col-md-6 col-lg-6 mt-4">
       <ng-container *ngIf="image.show">
 
-        <div>
-         <a [routerLink]="[image.page]"><img class="w-100" [src]="image.url"></a>
+        <div class="font-cardo">
+          <a [routerLink]="[image.page]"><img class="w-100" [src]="image.url"></a>
+          <div class="text-center mt-2">
+            <h1 class="font-weight-bold">{{image.title}}</h1>
+          </div>
         </div>
       </ng-container>
     </div>

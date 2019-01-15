@@ -1,0 +1,31 @@
+<div class="container">
+
+<section>
+  <div class="row">
+    <div class="col-md-6 col-lg-5 m-auto font-cardo">
+      <h2 class="display-3 d-none d-lg-block">Residential</h2>
+      <h2 class="display-4 d-block d-lg-none" >Residential</h2>
+      <h2 class="font-weight-normal mt-4">Residential Architecture & Interior Design</h2>
+    </div>
+    <div class="col-md-6 col-lg-6 offset-lg-1">
+      <img class="w-100" src="../assets/residential/page-header.jpg">
+    </div>
+  </div>
+  <div class="row mt-5 col-lg-12 m-auto px-xs-0 px-md-1 mt-sm-3">
+    <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-3 px-xs-0 px-md-3">
+      <ng-container *ngIf="image.show">
+        <div>
+          <a (click)="goToProject(image.id)"><img class="w-100" [src]="image.url"></a>
+          <h4 class="mt-4 custom-border font-weight-bold">{{image.name}}</h4>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+  </section>
+
+  <section class="my-1 mx-md-5 card bg-light border-0">
+    <app-consultation-component></app-consultation-component>
+  </section>
+
+</div>
+<app-contactinfo-component></app-contactinfo-component>

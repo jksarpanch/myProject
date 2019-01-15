@@ -30,20 +30,7 @@ export class ProductDetailsComponent implements OnInit {
     this.spinner.show();
     const currentProjectId = this.route.snapshot.params['id'];
     const currentPage = this.route.snapshot.params['page'];
-    let currentUrl = ' ../assets/data/projectDetails/projectDetailsData.json';
-    switch (currentPage) {
-      case 'live':
-        currentUrl = '../assets/data/projectDetails/projectDetailsData.json';
-        break;
-      case 'work':
-        currentUrl = '../assets/data/work/projectDetails/projectDetailsData.json';
-        break;
-      case 'play':
-        currentUrl = '../assets/data/play/projectDetails/projectDetailsData.json';
-        break;
-      default:
-        this.router.navigate(['/']);
-    }
+    const currentUrl = ` ../assets/data/${currentPage}/projectDetails/projectDetailsData.json`;
 
     this.http.get<IProjectData>(currentUrl)
       .pipe(

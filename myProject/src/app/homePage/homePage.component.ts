@@ -7,27 +7,30 @@ import { Component } from '@angular/core';
 export class HomepageComponent {
   imageCollection = [];
   constructor() {
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < 2; i++) {
       const url = '../assets/homePage/homePage' + (i + 1) + '.jpg';
       this.imageCollection[i] = {
         url: url,
         show: false,
-        page: this.getPageRouterPath(i)
+        page: this.getPageDetail(i).pageUrl,
+        title : this.getPageDetail(i).title
       };
     }
   }
 
-  getPageRouterPath(i): string {
+  getPageDetail(i) {
     switch (i) {
       case 0:
-        return '/livePage';
+        return {
+          pageUrl: '/residential',
+          title: 'Residential'
+        };
         break;
       case 1:
-        return '/work';
-        break;
-      case 2:
-        return '/play';
-        break;
+        return {
+          pageUrl: '/commercial',
+          title: 'Commercial'
+        };
     }
   }
 }

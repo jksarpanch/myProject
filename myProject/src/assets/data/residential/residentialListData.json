@@ -1,0 +1,71 @@
+{
+  "residentialComponent" : [
+    {
+      "id" : 1,
+      "url" : "../assets/residential/image1.jpg",
+      "name" : "RICHCREEK",
+      "show" : false
+    },
+    {
+      "id" : 2,
+      "url" : "../assets/residential/image2.jpg",
+      "name" : "FINLEY",
+      "show" : false
+    },
+    {
+      "id" : 3,
+      "url" : "../assets/residential/image3.jpg",
+      "name" : "ALEGRIA",
+      "show" : false
+    },
+    {
+      "id" : 4,
+      "url" : "../assets/residential/image4.jpg",
+      "name" : "Tarrytown Remodel",
+      "show" : false
+    },
+    {
+      "id" : 5,
+      "url" : "../assets/residential/image5.jpg",
+      "name" : "SOUTH 2ND BUNGLOWS",
+      "show" : false
+    },
+    {
+      "id" : 6,
+      "url" : "../assets/residential/image6.jpg",
+      "name" : "KNOLLWOOD COVE RD.",
+      "show" : false
+    },
+    {
+      "id" : 7,
+      "url" : "../assets/residential/image7.jpg",
+      "name" : "WEST 9TH ST.",
+      "show" : false
+    },
+    {
+      "id" : 8,
+      "url" : "../assets/residential/image8.jpg",
+      "name" : "VENADO",
+      "show" : false
+    },
+    {
+      "id" : 9,
+      "url" : "../assets/residential/image9.jpg",
+      "name" : "WEST 49TH ST.",
+      "show" : false
+    },
+    {
+      "id" : 10,
+      "url" : "../assets/residential/image10.jpg",
+      "name" : "PEREZ",
+      "show" : false
+    },
+    {
+      "id" : 11,
+      "url" : "../assets/residential/image12.jpg",
+      "name" : "Cameron",
+      "show" : false
+    }
+  ]
+
+}

@@ -5,7 +5,7 @@ import {AppComponent} from './app.component';
 import {RouterModule} from '@angular/router';
 import {NavModule} from './navigation/nav.module';
 import {LandingComponent} from './landingPage/landing.component';
-import {LiveComponent} from './live/live.component';
+import {ResidentialComponent} from './residential/residential.component';
 import {HeaderComponent} from './header/header.component';
 import {SidebarComponent} from './sidebar/sidebar.component';
 import {HomepageComponent} from './homePage/homePage.component';
@@ -18,16 +18,17 @@ import {BlogComponent} from './blog/blog.component';
 import {getBrowserLoggingCb} from '@angular-devkit/build-angular';
 import {ContactUsComponent} from './contactUs/contact.component';
 import {PlayComponent} from './play/play.component';
-import {WorkComponent} from './work/work.component';
+import {CommercialComponent} from './commercial/commercial.component';
 import {ProductDetailsComponent} from './productDetails/productDetails.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { HttpErrorInterceptor } from './common/components/http-error.interceptor';
+import { ConsultationComponent } from './common/consultation/consultation.component';
 
 @NgModule({
   declarations: [AppComponent,
     LandingComponent,
-    LiveComponent,
+    ResidentialComponent,
     HeaderComponent,
     SidebarComponent,
     HomepageComponent,
@@ -38,8 +39,9 @@ import { HttpErrorInterceptor } from './common/components/http-error.interceptor
     BlogComponent,
     ContactUsComponent,
     PlayComponent,
-    WorkComponent,
-    ProductDetailsComponent
+    CommercialComponent,
+    ProductDetailsComponent,
+    ConsultationComponent
   ],
   imports: [
     BrowserModule,
@@ -47,9 +49,9 @@ import { HttpErrorInterceptor } from './common/components/http-error.interceptor
     NgxSpinnerModule,
     RouterModule.forRoot([
       {path: '', component: LandingComponent},
-      {path: 'livePage', component: LiveComponent},
+      {path: 'residential', component: ResidentialComponent},
       {path: 'play', component: PlayComponent},
-      {path: 'work', component: WorkComponent},
+      {path: 'commercial', component: CommercialComponent},
       {path: 'homePage', component: HomepageComponent},
       {path: 'services', component: ServicesComponent},
       {path: 'aboutUs', component: AboutUsComponent},

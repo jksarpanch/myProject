@@ -1,0 +1,783 @@
+{
+  "projectData": [
+    {
+      "id": "1",
+      "projectName": "Ella Wooten",
+      "projectdescription": [],
+      "mainImageUrl" : "../../assets/commercial/EllaWooten/headerImage.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Contractor"
+        }
+      ],
+      "projectDetails": [
+          {
+            "url": "../../assets/commercial/EllaWooten/image1.jpg",
+            "name": "ENFIELD RD.",
+            "show": false
+          },
+          {
+            "url": "../../assets/commercial/EllaWooten/image2.jpg",
+            "name": "SOUTH 2ND BUNGLOWS",
+            "show": false
+          },
+          {
+            "url": "../../assets/commercial/EllaWooten/image3.jpg",
+            "name": "WEST 9TH ST.",
+            "show": false
+          },
+          {
+            "url": "../../assets/commercial/EllaWooten/image4.jpg",
+            "name": "Venado",
+            "show": false
+          },
+          {
+            "url": "../../assets/commercial/EllaWooten/image5.jpg",
+            "name": "Venado",
+            "show": false
+          },
+          {
+            "url": "../../assets/commercial/EllaWooten/image6.jpg",
+            "name": "Venado",
+            "show": false
+          },
+          {
+            "url": "../../assets/commercial/EllaWooten/image7.jpg",
+            "name": "Venado",
+            "show": false
+          },
+          {
+            "url": "../../assets/commercial/EllaWooten/image8.jpg",
+            "name": "Venado",
+            "show": false
+          },
+          {
+            "url": "../../assets/commercial/EllaWooten/image9.jpg",
+            "name": "Venado",
+            "show": false
+          },
+        {
+          "url": "../../assets/commercial/EllaWooten/image10.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image11.jpg",
+          "name": "Venado",
+          "show": false
+        }
+      ]
+    },
+
+    {
+      "id": "2",
+      "projectName": "Central Texas Food Bank",
+      "projectdescription": [
+        "Rehabilitation of existing restaurant",
+        "Facelift",
+        "Wine Bar"
+      ],
+      "mainImageUrl" : "../../assets/commercial/CentralFoodBank/headerImage.jpg",
+      "projectPersons": [
+        {
+          "name": "Studio 8",
+          "position": "Architect of Record"
+        },
+        {
+          "name": "Bhavani Singal",
+          "position": "Project Manager and Designer"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image1.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image2.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image3.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image4.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image5.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image6.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image7.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image8.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image9.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image10.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image11.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image12.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image13.jpg",
+          "name": "Venado",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "projectName": "Ella Wooten",
+      "projectdescription": [
+        "Timeless Inspiration",
+        "Park with pool house, which contains a staff office, open air changing areas, vending, and restroom facilities",
+        "Open air",
+        "AGBP 4-star rating"
+      ],
+      "mainImageUrl" : "../../assets/commercial/EllaWooten/image17.jpg",
+      "projectPersons": [
+        {
+          "name": "Studio 8",
+          "position": "Architect of Record"
+        },
+        {
+          "name": "Bhavani Singal",
+          "position": "Project Manager and Designer"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/commercial/EllaWooten/image1.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image2.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image3.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image4.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image5.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image6.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image7.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image8.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image9.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image10.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image11.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image12.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image13.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image14.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image15.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/EllaWooten/image16.jpg",
+          "name": "Venado",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "projectName": "Rocco's",
+      "projectdescription": [
+        "Old Style Deli",
+        "Renovation of existing restaurant and church into new restaurant space"
+      ],
+      "mainImageUrl" : "../../assets/commercial/Rocco/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "commercialshop No. 5",
+          "position": "Architect"
+        },
+        {
+          "name": "commercialshop No. 5",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Villani + Graham Construction",
+          "position": "Contractor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/commercial/Rocco/image2.jpg",
+          "name": "Finley",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "projectName": "Trails @ Leander Amenity",
+      "projectdescription": [
+        "Timeless Design",
+        "Amenity Center for residential community includes a pool, pool house with bathrooms, an open-airpavilion for grilling and movies, and a commercialscape"
+      ],
+      "mainImageUrl" : "../../assets/commercial/TrailsLeander/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "commercialshop No. 5",
+          "position": "Architect"
+        },
+        {
+          "name": "Pharis Design",
+          "position": "Landscape Architect"
+        },
+        {
+          "name": "Joe Copeland",
+          "position": "Contractor"
+        },
+        {
+          "name": "Liquid Assets",
+          "position": "Pool"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/commercial/TrailsLeander/image2.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/TrailsLeander/image3.jpg",
+          "name": "test RD.",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "projectName": "Winding Oaks Amenity Center",
+      "projectdescription": [
+        "Contemporary Architecture",
+        "Amenity Center for residential community includes a pool, pool house with bathrooms, a screened community center, and a commercialscape"
+      ],
+      "mainImageUrl" : "../../assets/commercial/WindingOaks/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "commercialshop No. 5",
+          "position": "Architect"
+        },
+        {
+          "name": "Pharis Design",
+          "position": "Landscape Architect"
+        },
+        {
+          "name": "Latigo Construction",
+          "position": "Contractor"
+        },
+        {
+          "name": "Liquid Assets",
+          "position": "Pool"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/commercial/WindingOaks/image2.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/WindingOaks/image3.jpg",
+          "name": "test RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/WindingOaks/image4.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/WindingOaks/image5.jpg",
+          "name": "test RD.",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "projectName": "Met Retail",
+      "projectdescription": [
+        "Blast Wall; Retail Building, 5,757 sf",
+        "Creative design solution",
+        "Master planning"
+      ],
+      "mainImageUrl" : "../../assets/commercial/MetRetail/image2.jpg",
+      "projectPersons": [
+        {
+          "name": "Studio 8",
+          "position": "Architect of Record"
+        },
+        {
+          "name": "Bhavani Singal",
+          "position": " Project Manager and Designer"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/commercial/MetRetail/image3.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/MetRetail/image4.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/MetRetail/image5.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/MetRetail/image6.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/MetRetail/image7.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/MetRetail/image8.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/MetRetail/image9.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/MetRetail/image10.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/MetRetail/image11.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/MetRetail/image12.jpg",
+          "name": "Venado",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "projectName": "Central Texas Food Bank",
+      "projectdescription": [
+        "Distribution and Outreach Center for Hunger Relief",
+        "135,000 sf"
+      ],
+      "mainImageUrl" : "../../assets/commercial/CentralFoodBank/image4.jpg",
+      "projectPersons": [
+        {
+          "name": "Studio 8",
+          "position": "Architect of Record"
+        },
+        {
+          "name": "Bhavani Singal",
+          "position": "Project ManagerandDesigner"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image1.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image10.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image5.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image6.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image2.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image9.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image7.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CentralFoodBank/image8.jpg",
+          "name": "Venado",
+          "show": false
+        }
+
+      ]
+    },
+    {
+      "id": "3",
+      "projectName": "Rackspace",
+      "projectdescription": [
+        "Renovation of Windsor Park Mall into Corporate Headquarters",
+        "346,400 sf"
+      ],
+      "mainImageUrl" : "../../assets/commercial/Rackspace/image11.jpg",
+      "projectPersons": [
+        {
+          "name": "Studio 8",
+          "position": "Architect of Record"
+        },
+        {
+          "name": "Bhavani Singaut",
+          "position": "Team Membe"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/commercial/Rackspace/image1.jpg",
+          "name": "Alegeria",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/Rackspace/image2.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/Rackspace/image3.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/Rackspace/image4.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/Rackspace/image5.jpg",
+          "name": "KNOLLWOOD COVE RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/Rackspace/image6.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/Rackspace/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/Rackspace/image8.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/Rackspace/image9.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/Rackspace/image10.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "projectName": "Capitol Commons",
+      "projectdescription": [],
+      "mainImageUrl" : "../../assets/commercial/CapitolCommons/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/commercial/CapitolCommons/image2.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CapitolCommons/image2.jpg",
+          "name": "Enfield",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/CapitolCommons/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "projectName": "Holcomb Yoga and Counseling",
+      "projectdescription": [
+        "Contemporary Architecture",
+        "1,000 sf Yoga studio, six counselling practitioner offices",
+        "Zen garden; ",
+        "Self-improvement"
+      ],
+      "mainImageUrl" : "src/assets/commercial/Holcomb/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "commercialshop No. 5",
+          "position": "Architect"
+        },
+        {
+          "name": "commercialshop No. 5",
+          "position": "Interior Designer"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/commercial/Holcomb/image2.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/Holcomb/image3.jpg",
+          "name": "test RD.",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "projectName": "Riata Vista",
+      "projectdescription": [
+        "Parking Garage on a large corporate campus"
+      ],
+      "mainImageUrl" : "../../assets/commercial/RiataVista/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Studio 8",
+          "position": "Architect of Record"
+        },
+        {
+          "name": "Bhavani Singal",
+          "position": "Team Member"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/commercial/RiataVista/image2.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/RiataVista/image3.jpg",
+          "name": "test RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/RiataVista/image4.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/RiataVista/image5.jpg",
+          "name": "test RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/RiataVista/image6.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/RiataVista/image7.jpg",
+          "name": "test RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/RiataVista/image8.jpg",
+          "name": "test RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/RiataVista/image9.jpg",
+          "name": "test RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/RiataVista/image10.jpg",
+          "name": "test RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/commercial/RiataVista/image11.jpg",
+          "name": "test RD.",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "projectName": "Tech Company",
+      "projectdescription": [],
+      "mainImageUrl" : "src/assets/commercial/TechCompany/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Conttactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "src/assets/commercial/TechCompany/image2.jpg",
+          "name": "Finley",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "projectName": "Karisha Community",
+      "projectdescription": [
+        "Modern Architecture meets Mature Forest",
+        "14,000 sf facility providing primary care, urgent care, mental health treatment, and alternative healing strategies",
+        "Integrated Healing"
+      ],
+      "mainImageUrl" : "../../assets/commercial/Karisha/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "commercialshop No. 5l",
+          "position": "Architect"
+        },
+        {
+          "name": "commercialshop No. 5",
+          "position": "Interior Designer"
+        }
+      ],
+      "projectDetails": []
+    }
+  ]
+}

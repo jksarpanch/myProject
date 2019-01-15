@@ -1,0 +1,70 @@
+{
+  "commercialComponent" : [
+    {
+      "id" : 1,
+      "url" : "../assets/commercial/image1.jpg",
+      "name" : "Ella Wooten",
+      "show" : false
+    },
+    {
+      "id" : 2,
+      "url" : "../assets/commercial/image2.jpg",
+      "name" : "Central Texas Food Bank",
+      "show" : false
+    },
+    {
+      "id" : 3,
+      "url" : "../assets/commercial/image3.jpg",
+      "name" : "Rackspace",
+      "show" : false
+    },
+    {
+      "id" : 4,
+      "url" : "../assets/commercial/image4.jpg",
+      "name" : "Met Retail",
+      "show" : false
+    },
+    {
+      "id" : 5,
+      "url" : "../assets/commercial/image5.jpg",
+      "name" : "Karisha",
+      "show" : false
+    },
+    {
+      "id" : 6,
+      "url" : "../assets/commercial/image6.jpg",
+      "name" : "Rocco's",
+      "show" : false
+    },
+    {
+      "id" : 7,
+      "url" : "../assets/commercial/image7.jpg",
+      "name" : "Riata Vista",
+      "show" : false
+    },
+    {
+      "id" : 8,
+      "url" : "../assets/commercial/image8.jpg",
+      "name" : "Estancia",
+      "show" : false
+    },
+    {
+      "id" : 9,
+      "url" : "../assets/commercial/image9.jpg",
+      "name" : "Holcomb",
+      "show" : false
+    },
+    {
+      "id" : 10,
+      "url" : "../assets/commercial/image10.jpg",
+      "name" : "Trials at Leander",
+      "show" : false
+    },
+    {
+      "id" : 11,
+      "url" : "../assets/commercial/image11.jpg",
+      "name" : "Winding Oaks",
+      "show" : false
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+{
+  "projectData": [
+    {
+      "id": "1",
+      "projectName": "Richcreek Residence",
+      "projectdescription": [
+        "Craftsman Inspired",
+        "4 bedrooms, 3.5 baths, 2800 sf",
+        "Playful family home that features an attic playroom"
+      ],
+      "mainImageUrl" : "../../assets/residential/RichcreekResidence/image7.jpg",
+      "projectPersons": [
+        {
+          "name": "Workshop No.5",
+          "position": "Architect"
+        },
+        {
+          "name": "Reed Construction",
+          "position": "Contactor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/residential/RichcreekResidence/image1.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/RichcreekResidence/image2.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/RichcreekResidence/image3.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/RichcreekResidence/image4.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/RichcreekResidence/image5.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/RichcreekResidence/image6.jpg",
+          "name": "Venado",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "projectName": "Finley Residence",
+      "projectdescription": [
+        "Mid-Century Modern",
+        "4 bedrooms, 3 baths, 3430 sf",
+        "Backyard Studio",
+        "Vaulted entry with clerestory"
+      ],
+      "mainImageUrl" : "../../assets/residential/Finley/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Workshop No. 5",
+          "position": "Architect"
+        },
+        {
+          "name": "Amy Mosier",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Austin Modern Properties",
+          "position": "Contractor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/residential/Finley/image2.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Finley/image4.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Finley/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Finley/image5.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Finley/image6.jpg",
+          "name": "KNOLLWOOD COVE RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Finley/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "projectName": "Alegria Residence",
+      "projectdescription": [
+        "Modern farmhouse style",
+        "3 bedrooms, 2.5 baths, 2800 sf",
+        "Shiplap dining",
+        "Glassy entry and Blue island"
+      ],
+      "mainImageUrl" : "../../assets/residential/Alegeria/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Workshop No. 5",
+          "position": "Architect"
+        },
+        {
+          "name": "Reed Construction",
+          "position": "Contractor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/residential/Alegeria/image2.jpg",
+          "name": "Alegeria",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image4.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image5.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image6.jpg",
+          "name": "KNOLLWOOD COVE RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image8.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image9.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image9.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image10.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image11.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image12.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image13.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image14.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "projectName": "Tarrytown Remodel",
+      "projectdescription": [
+        "Dummy data",
+        "Dummy data",
+        "Dummy data",
+        "Dummy data"
+      ],
+      "mainImageUrl" : "../../assets/residential/Enfield/image5.jpg",
+      "projectPersons": [
+        {
+          "name": "Bhavani Singal",
+          "position": "Architect"
+        },
+        {
+          "name": "Jennifer Stout",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Connor Lowry",
+          "position": "Contractor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/residential/Enfield/image1.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Enfield/image2.jpg",
+          "name": "Enfield",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Enfield/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Enfield/image4.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Enfield/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Enfield/image8.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Enfield/image9.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Enfield/image10.jpg",
+          "name": "KNOLLWOOD COVE RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Enfield/image11.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Enfield/image12.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "projectName": "South 2nd St. Bunglows",
+      "projectdescription": [
+        "Urban Farmhouse",
+        "Units A1/A2-3 bedrooms, 2.5 Bathrooms, 2100 sf",
+        "Units B1/B2-2 bedrooms, 1.5 Bathrooms, 1050 sf",
+        "Single Family with ADU",
+        "Breezeway & Courtyard"
+      ],
+      "mainImageUrl" : "../../assets/residential/S2Bunglows/image5.jpg",
+      "projectPersons": [
+        {
+          "name": "Workshop No. 5",
+          "position": "Architect"
+        },
+        {
+          "name": "Amy Mosier",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Austin Modern Properties",
+          "position": "Contractor"
+        }
+      ],
+      "projectDetails": [
+
+        {
+          "url": "../../assets/residential/S2Bunglows/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/S2Bunglows/image4.jpg",
+          "name": "test RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/S2Bunglows/image2.jpg",
+          "name": "test",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/S2Bunglows/image1.jpg",
+          "name": "Finley",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "projectName": "Knollwood Cove",
+      "projectdescription": [
+        "Inspired by mid-century architecture",
+        "4 bedrooms, 4 baths, 3400 sf",
+        "Nestled in the site",
+        "Two decks and Hall of windows"
+      ],
+      "mainImageUrl" : "../../assets/residential/knollwood/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Workshop No. 5",
+          "position": "Architect"
+        },
+        {
+          "name": "Amy Mosier",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Austin Modern Properties",
+          "position": "Contractor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/residential/knollwood/image2.jpg",
+          "name": "test",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "projectName": "West 9th St.",
+      "projectdescription": [
+        "Contemporary architecture in Deep Eddy neighborhood",
+        "4 bedrooms, 3.5 baths,study,3600 sf",
+        "Basement apartment",
+        "Distinct spaces, Floating staircase",
+        "Private courtyard"
+      ],
+      "mainImageUrl" : "../../assets/residential/West9St/image5.jpg",
+      "projectPersons": [
+        {
+          "name": "Workshop No. 5",
+          "position": "Architect"
+        },
+        {
+          "name": "Amy Mosier",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Austin Modern Properties",
+          "position": "Contractor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/residential/West9St/image1.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/West9St/image3.jpg",
+          "name": "Finley",
+          "show": false
+        },
+
+        {
+          "url": "../../assets/residential/West9St/image4.jpg",
+          "name": "test",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/West9St/image5.jpg",
+          "name": "Finley",
+          "show": false
+        }
+
+      ]
+    },
+    {
+      "id": "8",
+      "projectName": "Venado",
+      "projectdescription": [
+        "Transitional Architecture",
+        "4 bedrooms plus office, 3.5 baths, 4125 sf",
+        "Floating stairs",
+        "Two-story entry"
+      ],
+      "mainImageUrl" : "../../assets/residential/Venado/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Workshop No. 5",
+          "position": "Architect"
+        },
+        {
+          "name": "Amy Mosier",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Austin Modern Properties",
+          "position": "Contractor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/residential/Venado/image2.jpg",
+          "name": "test",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "projectName": "West 49th Street",
+      "projectdescription": [
+        "Butterfly roof",
+        "3 bedrooms, 2.5 bath, 3150 sf",
+        "Attic exemption",
+        "Modern architecture"
+      ],
+      "mainImageUrl" : "../../assets/residential/w_49/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Workshop No. 5",
+          "position": "Architect"
+        },
+        {
+          "name": "Amy Mosier",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Austin Modern Properties",
+          "position": "Contractor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/residential/w_49/image1.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/w_49/image2.jpg",
+          "name": "test",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "projectName": "Perez Residence",
+      "projectdescription": [
+        "Contemporary facelift",
+        "3 bedrooms, 2 baths, 2100 sf",
+        "Floodplain variance, Roof deck",
+        "Site full of restrictions"
+      ],
+      "mainImageUrl" : "../../assets/residential/Perez/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Workshop No. 5",
+          "position": "Architect"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/residential/Perez/image1.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Perez/image2.jpg",
+          "name": "test",
+          "show": false
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "projectName": "Cameron Residence",
+      "projectdescription": [
+        "Lake View",
+        "3 bedrooms,3 baths, 2500 sf",
+        "Nestled into the bluff",
+        "Designed to maximize sustainable living"
+      ],
+      "mainImageUrl" : "../../assets/residential/CameronResidence/image1.jpg",
+      "projectPersons": [
+        {
+          "name": "Workshop No. 5",
+          "position": "Architect"
+        },
+        {
+          "name": "Jackie Burke",
+          "position": "Interior Designer"
+        },
+        {
+          "name": "Native",
+          "position": "Contractor"
+        }
+      ],
+      "projectDetails": [
+        {
+          "url": "../../assets/residential/CameronResidence/image2.jpg",
+          "name": "Finley",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/CameronResidence/image3.jpg",
+          "name": "ALEGRIA",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/CameronResidence/image4.jpg",
+          "name": "ENFIELD RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/CameronResidence/image5.jpg",
+          "name": "SOUTH 2ND BUNGLOWS",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/CameronResidence/image6.jpg",
+          "name": "KNOLLWOOD COVE RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/CameronResidence/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/CameronResidence/image8.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/CameronResidence/image9.jpg",
+          "name": "WEST 49TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/CameronResidence/image10.jpg",
+          "name": "PEREZ",
+          "show": false
+        }
+      ]
+    }
+  ]
+}
