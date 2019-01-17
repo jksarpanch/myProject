@@ -11,10 +11,10 @@
         <img class="w-100" src="../assets/commercial/page-header.jpg">
       </div>
     </div>
-    <div class="row mt-5 col-lg-12 m-auto px-xs-0 px-md-1 mt-sm-3">
-      <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-5 px-xs-0 px-md-3">
+    <div class="row mt-5 col-lg-12 m-auto p-0 mt-sm-3">
+      <div *ngFor="let image of imageCollection; let i = index" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-5 p-0">
         <ng-container *ngIf="image.show">
-          <div>
+          <div [ngClass]="{'pr-sm-2':i%2==0, 'pl-sm-2':i%2!=0}">
             <a (click)="goToProject(image.id)"><img class="w-100" [src]="image.url"></a>
             <h4 class="mt-4 custom-border font-weight-bold">{{image.name}}</h4>
           </div>

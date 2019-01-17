@@ -1,18 +1,6 @@
 {
   "commercialComponent" : [
     {
-      "id" : 1,
-      "url" : "../assets/commercial/image1.jpg",
-      "name" : "Ella Wooten",
-      "show" : false
-    },
-    {
-      "id" : 2,
-      "url" : "../assets/commercial/image2.jpg",
-      "name" : "Central Texas Food Bank",
-      "show" : false
-    },
-    {
       "id" : 3,
       "url" : "../assets/commercial/image3.jpg",
       "name" : "Rackspace",
@@ -22,6 +10,18 @@
       "id" : 4,
       "url" : "../assets/commercial/image4.jpg",
       "name" : "Met Retail",
+      "show" : false
+    },
+    {
+      "id" : 1,
+      "url" : "../assets/commercial/image1.jpg",
+      "name" : "Ella Wooten",
+      "show" : false
+    },
+    {
+      "id" : 2,
+      "url" : "../assets/commercial/image2.jpg",
+      "name" : "Central Texas Food Bank",
       "show" : false
     },
     {
