@@ -8,7 +8,7 @@
         "4 bedrooms, 3.5 baths, 2800 sf",
         "Playful family home that features an attic playroom"
       ],
-      "mainImageUrl" : "../../assets/residential/RichcreekResidence/image7.jpg",
+      "mainImageUrl" : "../../assets/residential/RichcreekResidence/headerImage.jpg",
       "projectPersons": [
         {
           "name": "Workshop No.5",
@@ -46,7 +46,17 @@
           "show": false
         },
         {
-          "url": "../../assets/residential/RichcreekResidence/image6.jpg",
+          "url": "../../assets/residential/RichcreekResidence/image9.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/RichcreekResidence/image7.jpg",
+          "name": "Venado",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/RichcreekResidence/image8.jpg",
           "name": "Venado",
           "show": false
         }
@@ -61,7 +71,7 @@
         "Backyard Studio",
         "Vaulted entry with clerestory"
       ],
-      "mainImageUrl" : "../../assets/residential/Finley/image1.jpg",
+      "mainImageUrl" : "../../assets/residential/Finley/headerImage.jpg",
       "projectPersons": [
         {
           "name": "Workshop No. 5",
@@ -104,6 +114,16 @@
         },
         {
           "url": "../../assets/residential/Finley/image7.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Finley/image8.jpg",
+          "name": "KNOLLWOOD COVE RD.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Finley/image9.jpg",
           "name": "WEST 9TH ST.",
           "show": false
         }
@@ -171,11 +191,6 @@
           "show": false
         },
         {
-          "url": "../../assets/residential/Alegeria/image9.jpg",
-          "name": "WEST 9TH ST.",
-          "show": false
-        },
-        {
           "url": "../../assets/residential/Alegeria/image10.jpg",
           "name": "WEST 9TH ST.",
           "show": false
@@ -186,17 +201,32 @@
           "show": false
         },
         {
-          "url": "../../assets/residential/Alegeria/image12.jpg",
-          "name": "WEST 9TH ST.",
-          "show": false
-        },
-        {
           "url": "../../assets/residential/Alegeria/image13.jpg",
           "name": "WEST 9TH ST.",
           "show": false
         },
         {
           "url": "../../assets/residential/Alegeria/image14.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image15.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image16.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image17.jpg",
+          "name": "WEST 9TH ST.",
+          "show": false
+        },
+        {
+          "url": "../../assets/residential/Alegeria/image18.jpg",
           "name": "WEST 9TH ST.",
           "show": false
         }
@@ -211,7 +241,7 @@
         "Dummy data",
         "Dummy data"
       ],
-      "mainImageUrl" : "../../assets/residential/Enfield/image5.jpg",
+      "mainImageUrl" : "../../assets/residential/Enfield/headerImage.jpg",
       "projectPersons": [
         {
           "name": "Bhavani Singal",
@@ -289,7 +319,7 @@
         "Single Family with ADU",
         "Breezeway & Courtyard"
       ],
-      "mainImageUrl" : "../../assets/residential/S2Bunglows/image5.jpg",
+      "mainImageUrl" : "../../assets/residential/S2Bunglows/headerImage.jpg",
       "projectPersons": [
         {
           "name": "Workshop No. 5",
@@ -337,7 +367,7 @@
         "Nestled in the site",
         "Two decks and Hall of windows"
       ],
-      "mainImageUrl" : "../../assets/residential/knollwood/image1.jpg",
+      "mainImageUrl" : "../../assets/residential/knollwood/headerImage.jpg",
       "projectPersons": [
         {
           "name": "Workshop No. 5",
@@ -370,7 +400,7 @@
         "Distinct spaces, Floating staircase",
         "Private courtyard"
       ],
-      "mainImageUrl" : "../../assets/residential/West9St/image5.jpg",
+      "mainImageUrl" : "../../assets/residential/West9St/headerImage.jpg",
       "projectPersons": [
         {
           "name": "Workshop No. 5",
@@ -419,7 +449,7 @@
         "Floating stairs",
         "Two-story entry"
       ],
-      "mainImageUrl" : "../../assets/residential/Venado/image1.jpg",
+      "mainImageUrl" : "../../assets/residential/Venado/headerImage.jpg",
       "projectPersons": [
         {
           "name": "Workshop No. 5",
@@ -451,7 +481,7 @@
         "Attic exemption",
         "Modern architecture"
       ],
-      "mainImageUrl" : "../../assets/residential/w_49/image1.jpg",
+      "mainImageUrl" : "../../assets/residential/w_49/headerImage.jpg",
       "projectPersons": [
         {
           "name": "Workshop No. 5",
@@ -468,13 +498,8 @@
       ],
       "projectDetails": [
         {
-          "url": "../../assets/residential/w_49/image1.jpg",
-          "name": "Finley",
-          "show": false
-        },
-        {
           "url": "../../assets/residential/w_49/image2.jpg",
-          "name": "test",
+          "name": "Finley",
           "show": false
         }
       ]
@@ -488,7 +513,7 @@
         "Floodplain variance, Roof deck",
         "Site full of restrictions"
       ],
-      "mainImageUrl" : "../../assets/residential/Perez/image1.jpg",
+      "mainImageUrl" : "../../assets/residential/Perez/headerImage.jpg",
       "projectPersons": [
         {
           "name": "Workshop No. 5",
@@ -496,11 +521,6 @@
         }
       ],
       "projectDetails": [
-        {
-          "url": "../../assets/residential/Perez/image1.jpg",
-          "name": "Finley",
-          "show": false
-        },
         {
           "url": "../../assets/residential/Perez/image2.jpg",
           "name": "test",
@@ -517,7 +537,7 @@
         "Nestled into the bluff",
         "Designed to maximize sustainable living"
       ],
-      "mainImageUrl" : "../../assets/residential/CameronResidence/image1.jpg",
+      "mainImageUrl" : "../../assets/residential/CameronResidence/headerImage.jpg",
       "projectPersons": [
         {
           "name": "Workshop No. 5",
