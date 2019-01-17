@@ -23,10 +23,14 @@
       <div *ngFor="let image of imageCollection" (deferLoad)="image.show = true" class="col-md-6 col-lg-6 my-md-3 my-2">
         <ng-container *ngIf="image.show">
           <div>
-            <img style="width:97%" [src]="image.url">
+            <div class="text-center">
+            <img style="width:65%"  [src]="image.url">
+            </div>
+            <div>
             <h5 class="mt-5 custom-border font-weight-bold">{{image.title}}</h5>
-            <h1 class="mt-4  font-cardo">{{image.name}}</h1>
-            <p class="mt-4 font-cardo font-1-1">{{image.description}}<span *ngIf="image.additionalDescription"><br/>{{image.additionalDescription}}</span></p>
+            <h1 class="mt-3 font-cardo">{{image.name}}</h1>
+            </div>
+            <p class="mt-3 font-cardo font-1-1">{{image.description}}<span *ngIf="image.additionalDescription"><br/>{{image.additionalDescription}}</span></p>
           </div>
         </ng-container>
       </div>
