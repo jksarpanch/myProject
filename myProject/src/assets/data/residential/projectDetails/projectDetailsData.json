@@ -236,24 +236,16 @@
       "id": "4",
       "projectName": "Tarrytown Remodel",
       "projectdescription": [
-        "Dummy data",
-        "Dummy data",
-        "Dummy data",
-        "Dummy data"
+        "Interior remodel",
+        "Enlarged master bath and reconfigured kitchen and laundry room",
+        "Added powder room",
+		"Traditional style"        
       ],
       "mainImageUrl" : "../../assets/residential/Enfield/headerImage.jpg",
       "projectPersons": [
         {
-          "name": "Bhavani Singal",
+          "name": "Workshop No. 5",
           "position": "Architect"
-        },
-        {
-          "name": "Jennifer Stout",
-          "position": "Interior Designer"
-        },
-        {
-          "name": "Connor Lowry",
-          "position": "Contractor"
         }
       ],
       "projectDetails": [
